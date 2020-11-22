@@ -19,5 +19,15 @@
     font-size: 2rem;
 }
 
+.food-page__table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
 
-
+.food-page__des > p {
+    font-size: 1.2rem;
+}

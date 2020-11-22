@@ -1,5 +1,6 @@
 .food__container {
     padding: 0.2rem;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -13,11 +14,21 @@
 }
 
 .food__container p {
-    font-size: 1.6rem;
+    font-size: 1.15rem;
     text-align: center;
     align-self: center;
-    position: relative;
-    bottom: 50%;
-    color:white;
+
+    color:black;
 }
 
+.food__table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.food__table tr {
+    padding: 2rem;
+}
