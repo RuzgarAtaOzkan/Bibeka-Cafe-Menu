@@ -1,0 +1,46 @@
+.sidebar__container {
+    position: fixed;
+    width: 65%;
+    left: -100%;
+    z-index: 3;
+    height: 100%;
+    background-color: #BE7444;
+    transition: all 0.4s ease-in-out;
+}
+
+.sidebar__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid ;
+}
+
+.sidebar__item {
+    font-size: 1.6rem;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border-top: 1px solid #854217;
+}
+
+.sidebar__item:hover {
+    background-color: #854217;
+}
+
+.sidebar__toggle {
+    font-size: 1.6rem;
+    color: white;
+    padding: 1rem;
+    padding-left: 20%;
+    cursor: pointer;
+}
+
+.sidebar__toggle:hover {
+    background-color: #854217;
+}
+
+
+.active {
+    left: 0%;
+}

@@ -1,0 +1,17 @@
+.header__container {
+    background-color: #BE7444;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.header__container__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header__container__list img {
+    max-width: 100px;
+}

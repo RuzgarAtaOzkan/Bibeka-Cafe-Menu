@@ -1,0 +1,13 @@
+.foods__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.foods__container h1 {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}

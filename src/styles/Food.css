@@ -1,0 +1,23 @@
+.food__container {
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.food__container img {
+    max-width: 170px;
+    height: 250px;
+    min-width: 100%;
+    border-radius: 15px;
+    filter: brightness(60%);
+}
+
+.food__container p {
+    font-size: 1.6rem;
+    text-align: center;
+    align-self: center;
+    position: relative;
+    bottom: 50%;
+    color:white;
+}
+
