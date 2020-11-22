@@ -12,6 +12,12 @@
 
 .food-page__content img {
     border-radius: 1rem;
-    
+    filter: brightness(75%);
 }
+
+.food-page__name > p {
+    font-size: 2rem;
+}
+
+
 

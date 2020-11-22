@@ -12,6 +12,15 @@ class Foods extends React.Component {
     componentDidMount() {
 
     }
+
+    configTitle(word) {
+        if (word.includes('sogukicicek')) return 'Soguk Icicekler';
+        if (word.includes('sicakicicek')) return 'Sicak Icicekler';
+        if (word.includes('anayemek')) return 'Ana Yemekler';
+        else {
+            return word.charAt(0).toUpperCase() + word.slice(1);
+        }
+    }
     
     displayFoods() {
         return foodsData[this.props.foods].map((item, index) => {
@@ -28,7 +37,7 @@ class Foods extends React.Component {
     render() {
         return (
             <div className="foods__container">
-                <h1>{this.props.foods.toUpperCase()}</h1>
+                <h1>{this.configTitle(this.props.foods)}</h1>
                 {this.displayFoods()}
             </div>
         );

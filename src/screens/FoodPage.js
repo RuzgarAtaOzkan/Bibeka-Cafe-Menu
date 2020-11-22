@@ -23,7 +23,12 @@ class FoodPage extends React.Component {
                 <div className="food-page__content">
                     <img alt="food" src={this.state.food.image} />
 
+                    <div className="food-page__name">
+                        <p>{this.state.food.name}</p>
+                    </div>
+
                     <div>
+
                         <p>{this.state.food.description}</p>
                     </div>
                 </div>

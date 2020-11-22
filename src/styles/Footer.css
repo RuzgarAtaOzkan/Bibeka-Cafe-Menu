@@ -20,3 +20,10 @@
     padding: 0.3rem;
     font-size: 1.5rem;
 }
+
+#footer__designer-signature {
+    padding-top: 0.2rem;
+    font-size: 13px;
+    color: grey;
+}
+
