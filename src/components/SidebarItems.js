@@ -25,19 +25,17 @@ class SidebarItems extends React.Component {
         return (
             this.state.sidebarData.map((item, index) => {
                 return (
-                    <>
-
-                        <a 
-                            key={index}
-                            href={item.path}
+                    <a 
+                        href={item.path}
+                        key={Math.random().toString()}
+                    >
+                        <li 
+                            className={item.cName} 
                         >
-                            <li className={item.cName}>
-                                {item.name.includes('Icicek') || item.path.includes('icicek') ? <BiDrink /> : item.icon}
-                                {item.name}
-                            </li>
-                        </a>
-                    </>
-
+                            {item.name.includes('Icicek') || item.path.includes('icicek') ? <BiDrink /> : item.icon}
+                            {item.name}
+                        </li>
+                    </a>
                 );
             })
         );

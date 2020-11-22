@@ -1,0 +1,22 @@
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__container div {
+    
+    padding: 0.2rem;
+    font-size: 2.5rem;
+}
+
+.footer__container div a  {
+    color: black;
+}
+
+
+.footer__container p {
+    padding: 0.3rem;
+    font-size: 1.5rem;
+}

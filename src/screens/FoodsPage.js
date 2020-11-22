@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/FoodsPage.css';
 import Foods from '../components/Foods';
 import Header from '../components/Header';
-
+import Footer from '../components/Footer';
 
 class FoodsPage extends React.Component {
 
@@ -25,6 +25,7 @@ class FoodsPage extends React.Component {
                 <div className="foods-page__content">
                     {this.displayDynamicRoutes()}
                 </div>
+                <Footer />
             </div>
         );
     };

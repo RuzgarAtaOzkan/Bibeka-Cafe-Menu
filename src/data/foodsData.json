@@ -45,7 +45,8 @@
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "baslangiclar1"
+            "urlName": "baslangiclar1",
+            "description": "Efsane yemek"
         },
         {
             "image": "../images/image_buneamk.jpg",

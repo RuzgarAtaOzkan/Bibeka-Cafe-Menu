@@ -6,6 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Texturina', serif;
+    font-weight: bold;
 }
 
 .app_container {

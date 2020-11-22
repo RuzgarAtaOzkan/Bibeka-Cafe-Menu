@@ -52,6 +52,7 @@ class Header extends React.Component {
                 <div className={this.state.showSideBar ? "sidebar__container active" : "sidebar__container"}>
                     <ul className="sidebar_items">
                         <li
+                            key={Math.random().toString()}
                             onClick={this.switchSidebar}
                             className="sidebar__toggle"
                         >

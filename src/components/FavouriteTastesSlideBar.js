@@ -18,7 +18,7 @@ class FavouriteTastesSlideBar extends React.Component {
                         name="Tavuk Schnitzel"
                     />
                     <FavouriteTaste
-                        name="Yarrak"
+                        name="kofte"
                     />
                     
                 </div>

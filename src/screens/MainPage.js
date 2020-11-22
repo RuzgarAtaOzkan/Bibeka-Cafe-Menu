@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import FavouriteTastesSlideBar from '../components/FavouriteTastesSlideBar';
 import Categories from '../components/Categories';
+import Footer from '../components/Footer';
 import '../styles/MainPage.css';
 
 class MainPage extends React.Component {
@@ -11,6 +12,7 @@ class MainPage extends React.Component {
                 <Header />
                 <FavouriteTastesSlideBar />
                 <Categories />
+                <Footer />
             </div>
         );
     };
