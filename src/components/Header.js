@@ -7,6 +7,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { TiSocialInstagram } from 'react-icons/ti';
 import { GrClose } from 'react-icons/gr';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
 
 class Header extends React.Component {
     
@@ -19,7 +20,7 @@ class Header extends React.Component {
     }
 
     switchSidebar() {
-        this.setState({ showSideBar: !this.state.showSideBar });
+        this.props.switchSideBar();
     }
 
     render() {
@@ -49,7 +50,7 @@ class Header extends React.Component {
 
                 </div>
 
-                <div className={this.state.showSideBar ? "sidebar__container active" : "sidebar__container"}>
+                <div className={this.props.showSideBar ? "sidebar__container active" : "sidebar__container"}>
                     <ul className="sidebar_items">
                         <li
                             key={Math.random().toString()}
@@ -66,4 +67,18 @@ class Header extends React.Component {
     };
 }
 
-export default Header;
+function mapStateToProps(state) {
+    return {
+        showSideBar: state.general.showSideBar
+    }
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        switchSideBar: () => {
+            dispatch({ type: 'SWITCH_SIDEBAR' });
+        }
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Header);

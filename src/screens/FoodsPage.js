@@ -3,6 +3,7 @@ import '../styles/FoodsPage.css';
 import Foods from '../components/Foods';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { connect } from 'react-redux';
 
 class FoodsPage extends React.Component {
 
@@ -22,7 +23,12 @@ class FoodsPage extends React.Component {
         return (
             <div className="foods-page__container">
                 <Header />
-                <div className="foods-page__content">
+                <div 
+                    className="foods-page__content"
+                    onClick={() => {
+                        this.props.closeSideBar();
+                    }}
+                >
                     {this.displayDynamicRoutes()}
                 </div>
                 <Footer />
@@ -31,4 +37,22 @@ class FoodsPage extends React.Component {
     };
 }
 
-export default FoodsPage;
+function mapStateToProps(state) {
+    return {
+        showSideBar: state.general.showSideBar
+    }
+}
+
+function mapDispatchToProps(dispatch) {
+    return {
+        switchSideBar: () => {
+            dispatch({ type: 'SWITCH_SIDEBAR' });
+        },
+        closeSideBar: () => {
+            dispatch({ type: 'CLOSE_SIDEBAR' });
+        }
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(FoodsPage);
+

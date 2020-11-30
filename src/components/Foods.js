@@ -28,7 +28,7 @@ class Foods extends React.Component {
                 <Food
                     key={index}
                     food={item}
-                    urlName={this.props.foods}
+                    foodsCategoryURL={this.props.foods}
                 />
             );
         });

@@ -15,7 +15,7 @@ class Food extends React.Component {
     render() {
         return (
             <div className="food__container">
-                <Link to={`/${this.props.urlName}/${this.props.food.urlName}`}>
+                <Link to={`/${this.props.foodsCategoryURL}/${this.props.food.urlName}`}>
                     <img alt="food" src={this.state.foodInfo.image} />
                     <p>{this.state.foodInfo.name}</p>
 
