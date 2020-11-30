@@ -20,18 +20,18 @@ class Food extends React.Component {
                     <p>{this.state.foodInfo.name}</p>
 
                     <div className="food__table">
-                        <table style={{ border: '1px solid black' }}>
+                        <table>
                             <thead>
 
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th>Yarim</th>
-                                    <th>Tam</th>
+                                    <th>{this.state.foodInfo.price.yarim ? "Yarim" : null}</th>
+                                    <th>{this.state.foodInfo.price.tam ? "Tam" : null}</th>
                                 </tr>
                                 <tr>
-                                    <td>{`${this.state.foodInfo.price.yarim} TL`}</td>
-                                    <td>{`${this.state.foodInfo.price.tam} TL`}</td>
+                                    <td>{this.state.foodInfo.price.yarim ? `${this.state.foodInfo.price.yarim} TL` : null}</td>
+                                    <td>{this.state.foodInfo.price.tam ? `${this.state.foodInfo.price.tam} TL` : `${this.state.foodInfo.price} TL`}</td>
                                 </tr>
                             </tbody>
 

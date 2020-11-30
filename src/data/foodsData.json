@@ -296,140 +296,98 @@
             "name": "Turk Kahvesi",
             "urlName": "sicakicicekler0",
             "description": "",
-            "price": {
-                "yarim": 23,
-                "tam": 8
-            }
+            "price": 8
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Nescafe",
             "urlName": "sicakicicekler1",
             "description": "",
-            "price": {
-                "yarim": 23,
-                "tam": 9
-            }
+            "price": 9
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Espresso",
             "urlName": "sicakicicekler2",
             "description": "",
-            "price": {
-                "yarim": 23,
-                "tam": 9
-            }
+            "price": 9
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Cappuccino",
             "urlName": "sicakicicekler3",
             "description": "",
-            "price": {
-                "yarim": 23,
-                "tam": 14
-            }
+            "price": 14
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Maccihato",
             "urlName": "sicakicicekler4",
             "description": "",
-            "price": {
-                "yarim": 23,
-                "tam": 10
-            }
+            "price": 10
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Cafe Latte",
             "urlName": "sicakicicekler5",
             "description": "",
-            "price": {
-                "yarim": 23,
-                "tam": 14
-            }
+            "price": 14
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Cafe Latte Karamel",
             "urlName": "sicakicicekler6",
             "description": "",
-            "price": {
-                "yarim": 23,
-                "tam": 17
-            }
+            "price": 17
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Filtre Kahve",
             "urlName": "sicakicicekler7",
             "description": "",
-            "price": {
-                "yarim": 23,
-                "tam": 13
-            }
+            "price": 13
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Americano",
             "urlName": "sicakicicekler8",
             "description": "",
-            "price": {
-                "yarim": 23,
-                "tam": 13
-            }
+            "price": 13
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Sicak Cikolata",
             "urlName": "sicakicicekler9",
             "description": "",
-            "price": {
-                "yarim": 23,
-                "tam": 10
-            }
+            "price": 10
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Sahlep",
             "urlName": "sicakicicekler10",
             "description": "",
-            "price": {
-                "yarim": 23,
-                "tam": 10
-            }
+            "price": 10
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Cay",
             "urlName": "sicakicicekler11",
             "description": "",
-            "price": {
-                "yarim": 23,
-                "tam": 5
-            }
+            "price": 5
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Enerji Cayi",
             "urlName": "sicakicicekler12",
             "description": "(Yesil Cay, Ihlamur, Kus Burnu, Bal)",
-            "price": {
-                "yarim": 23,
-                "tam": 15
-            }
+            "price": 15
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Bitki Caylari",
             "urlName": "sicakicicekler13",
             "description": "Demleme (Ihlamur, Ada Cayi, Kus Burnu, Yesil Cay, Melisa)",
-            "price": {
-                "yarim": 23,
-                "tam": 12
-            }
+            "price": 12
         }
     ],
     "sogukicicekler": [
@@ -438,120 +396,91 @@
             "name": "Limonata",
             "urlName": "sogukicicekler0",
             "description": "(Ev Yapimi)",
-            "price": {
-                "yarim": 23,
-                "tam": 9
-            }
+            "price": 9
         },
         {
             "image": "../images/image_portakal.jpg",
             "name": "Taze Portakal Suyu",
             "urlName": "sogukicicekler1",
             "description": "",
-            "price": {
-                "yarim": 23,
-                "tam": 12
-            }
+            "price": 12
         },
         {
             "image": "../images/image_cappy.png",
             "name": "Cappy",
             "urlName": "sogukicicekler2",
             "description": "(Visne, Seftali, Karisik)",
-            "price": {
-                "yarim": 23,
-                "tam": 6
-            }
+            "price": 6
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Coca Cola",
             "urlName": "sogukicicekler3",
             "description": "",
-            "price": {
-                "tam": 6
-            }
+            "price": 6
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Diet Cola",
             "urlName": "sogukicicekler4",
             "description": "",
-            "price": {
-                "tam": 6
-            }
+            "price": 6
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Cola Zero",
             "urlName": "sogukicicekler5",
             "description": "",
-            "price": {
-                "tam": 6
-            }
+            "price": 6
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Fanta",
             "urlName": "sogukicicekler6",
             "description": "",
-            "price": {
-                "tam": 6
-            }
+            "price": 6
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Sprite",
             "urlName": "sogukicicekler7",
             "description": "",
-            "price": {
-                "tam": 6
-            }
+            "price": 6
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Ice Tea",
             "urlName": "sogukicicekler8",
             "description": "(Seftali, Limon)",
-            "price": {
-                "tam": 6
-            }
+            "price": 6
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Ayran",
             "urlName": "sogukicicekler9",
             "description": "",
-            "price": {
-                "tam": 5
-            }
+            "price": 5
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Soda",
             "urlName": "sogukicicekler10",
             "description": "",
-            "price": {
-                "tam": 4
-            }
+            "price": 4
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Meyveli Soda",
             "urlName": "sogukicicekler11",
             "description": "(Limon)",
-            "price": {
-                "tam": 4
-            }
+            "price": 4
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Su",
             "urlName": "sogukicicekler12",
             "description": "",
-            "price": {
-                "tam": 2
-            }
+            "price": 2
         }
     ]
 }

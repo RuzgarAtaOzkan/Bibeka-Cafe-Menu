@@ -15,8 +15,8 @@ class SidebarItems extends React.Component {
                 { name: 'Makarnalar', icon: <RiRestaurant2Fill />, path: '/makarnalar', cName: "sidebar__item" },
                 { name: 'Kahvaltilar', icon: <RiRestaurant2Fill />, path: '/kahvaltilar', cName: "sidebar__item" },
                 { name: 'Tatlilar', icon: <RiRestaurant2Fill />, path: '/tatlilar', cName: "sidebar__item" },
-                { name: 'Sicak Icicekler', icon: <RiRestaurant2Fill />, path: '/sicakicicekler', cName: "sidebar__item" },
-                { name: 'Soguk Icicekler', icon: <RiRestaurant2Fill />, path: '/sogukicicekler', cName: "sidebar__item" },
+                { name: 'Sicak Icicekler', icon: <BiDrink />, path: '/sicakicicekler', cName: "sidebar__item" },
+                { name: 'Soguk Icicekler', icon: <BiDrink />, path: '/sogukicicekler', cName: "sidebar__item" },
             ]
         }
     }
@@ -32,7 +32,7 @@ class SidebarItems extends React.Component {
                         <li 
                             className={item.cName} 
                         >
-                            {item.name.includes('Icicek') || item.path.includes('icicek') ? <BiDrink /> : item.icon}
+                            {item.icon}
                             {item.name}
                         </li>
                     </a>

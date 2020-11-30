@@ -10,14 +10,14 @@
     height: 250px;
     min-width: 100%;
     border-radius: 15px;
-    filter: brightness(60%);
+    filter: brightness(90%);
 }
 
 .food__container p {
     font-size: 1.15rem;
     text-align: center;
     align-self: center;
-
+    font-weight: bold;
     color:black;
 }
 
@@ -29,6 +29,15 @@
 }
 
 
-.food__table tr {
-    padding: 2rem;
+.food__table th {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
 }
+
+.food__table td {
+    font-size: 28x;
+    font-weight: bold;
+    color: black;
+}
+
