@@ -13,7 +13,7 @@ class Categories extends React.Component {
             { image: '../images/image_sahanda.jpg', name: 'Kahvaltilar', urlName: 'kahvaltilar' },
             { image: '../images/image_mozaik.jpg', name: 'Tatlilar', urlName: 'tatlilar' },
             { image: '../images/image_sahlep.jpg', name: 'Sicak Icicekler', urlName: 'sicakicicekler' },
-            { image: '../images/image_sahlep.jpg', name: 'Soguk Icicekler', urlName: 'sogukicicekler' },
+            { image: '../images/image_sahlep.jpg', name: 'Soguk Icicekler', urlName: 'sogukicicekler' }
         ]
     }
 
