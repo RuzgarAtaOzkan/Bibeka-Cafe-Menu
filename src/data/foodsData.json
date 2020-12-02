@@ -237,37 +237,72 @@
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kahvaltilar0"
+            "urlName": "kahvaltilar0",
+            "description": "(Kabak, Havuc, Patlican)",
+            "price": {
+                "yarim": 23,
+                "tam": 27
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kahvaltilar1"
+            "urlName": "kahvaltilar1",
+            "description": "(Kabak, Havuc, Patlican)",
+            "price": {
+                "yarim": 23,
+                "tam": 27
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kahvaltilar2"
+            "urlName": "kahvaltilar2",
+            "description": "(Kabak, Havuc, Patlican)",
+            "price": {
+                "yarim": 23,
+                "tam": 27
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kahvaltilar3"
+            "urlName": "kahvaltilar3",
+            "description": "(Kabak, Havuc, Patlican)",
+            "price": {
+                "yarim": 23,
+                "tam": 27
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kahvaltilar4"
+            "urlName": "kahvaltilar4",
+            "description": "(Kabak, Havuc, Patlican)",
+            "price": {
+                "yarim": 23,
+                "tam": 27
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kahvaltilar5"
+            "urlName": "kahvaltilar5",
+            "description": "(Kabak, Havuc, Patlican)",
+            "price": {
+                "yarim": 23,
+                "tam": 27
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kahvaltilar6"
+            "urlName": "kahvaltilar6",
+            "description": "(Kabak, Havuc, Patlican)",
+            "price": {
+                "yarim": 23,
+                "tam": 27
+            }
         }
     ],
     "tatlilar": [
@@ -276,114 +311,110 @@
             "name": "Mozaik Pasta",
             "urlName": "tatlilar0",
             "description": "",
-            "price": {
-                "tam": 9
-            }
+            "price": 9
         },
         {
             "image": "../images/image_tart.jpg",
             "name": "Elmali Tart",
             "urlName": "tatlilar1",
             "description": "",
-            "price": {
-                "tam": 9
-            }
+            "price": 9
         }
     ],
     "sicakicicekler": [
         {
-            "image": "/static/media/image_turk-kahvesi.0bedf0d2.jpg",
+            "image": "../images/image_turk-kahvesi.jpg",
             "name": "Turk Kahvesi",
             "urlName": "sicakicicekler0",
             "description": "",
             "price": 8
         },
         {
-            "image": "/static/media/image_nescafe2.6e121d8b.png",
+            "image": "../images/image_nescafe2.png",
             "name": "Nescafe",
             "urlName": "sicakicicekler1",
             "description": "",
             "price": 9
         },
         {
-            "image": "/static/media/image_espresso.f214e719.jpg",
+            "image": "../images/image_espresso.jpg",
             "name": "Espresso",
             "urlName": "sicakicicekler2",
             "description": "",
             "price": 9
         },
         {
-            "image": "/static/media/image_cappuccino.e66be2af.jpg",
+            "image": "../images/image_cappuccino.jpg",
             "name": "Cappuccino",
             "urlName": "sicakicicekler3",
             "description": "",
             "price": 14
         },
         {
-            "image": "/static/media/image_macchiato.0b99f81b.jpg",
+            "image": "../images/image_macchiato.jpg",
             "name": "Maccihato",
             "urlName": "sicakicicekler4",
             "description": "",
             "price": 10
         },
         {
-            "image": "/static/media/image_cafe-latte.53fafbd6.jpg",
+            "image": "../images/image_cafe-latte.jpg",
             "name": "Cafe Latte",
             "urlName": "sicakicicekler5",
             "description": "",
             "price": 14
         },
         {
-            "image": "/static/media/image_cafe-latte-karamel.44188800.jpg",
+            "image": "../images/image_cafe-latte-karamel.jpg",
             "name": "Cafe Latte Karamel",
             "urlName": "sicakicicekler6",
             "description": "",
             "price": 17
         },
         {
-            "image": "/static/media/image_filtre-kahve.4596814b.jpg",
+            "image": "../images/image_filtre-kahve.jpg",
             "name": "Filtre Kahve",
             "urlName": "sicakicicekler7",
             "description": "",
             "price": 13
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_americano.jpg",
             "name": "Americano",
             "urlName": "sicakicicekler8",
             "description": "",
             "price": 13
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_sicak-cikolata.jpg",
             "name": "Sicak Cikolata",
             "urlName": "sicakicicekler9",
             "description": "",
             "price": 10
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_sahlep.jpg",
             "name": "Sahlep",
             "urlName": "sicakicicekler10",
             "description": "",
             "price": 10
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_cay.png",
             "name": "Cay",
             "urlName": "sicakicicekler11",
             "description": "",
             "price": 5
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_enerji-cayi.jpg",
             "name": "Enerji Cayi",
             "urlName": "sicakicicekler12",
             "description": "(Yesil Cay, Ihlamur, Kus Burnu, Bal)",
             "price": 15
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_bitki-caylari.jpg",
             "name": "Bitki Caylari",
             "urlName": "sicakicicekler13",
             "description": "Demleme (Ihlamur, Ada Cayi, Kus Burnu, Yesil Cay, Melisa)",
@@ -392,91 +423,91 @@
     ],
     "sogukicicekler": [
         {
-            "image": "../images/image_limonata.jpeg",
+            "image": "../images/image_limonata2.jpg",
             "name": "Limonata",
             "urlName": "sogukicicekler0",
             "description": "(Ev Yapimi)",
             "price": 9
         },
         {
-            "image": "../images/image_portakal.jpg",
+            "image": "../images/image_orange-juice.jpg",
             "name": "Taze Portakal Suyu",
             "urlName": "sogukicicekler1",
             "description": "",
             "price": 12
         },
         {
-            "image": "../images/image_cappy.png",
+            "image": "../images/image_cappy-duzgun.jpeg",
             "name": "Cappy",
             "urlName": "sogukicicekler2",
             "description": "(Visne, Seftali, Karisik)",
             "price": 6
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_coca-cola.jpg",
             "name": "Coca Cola",
             "urlName": "sogukicicekler3",
             "description": "",
             "price": 6
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_diet-coke.png",
             "name": "Diet Cola",
             "urlName": "sogukicicekler4",
             "description": "",
             "price": 6
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_cola-zero.jpg",
             "name": "Cola Zero",
             "urlName": "sogukicicekler5",
             "description": "",
             "price": 6
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_fanta.jpg",
             "name": "Fanta",
             "urlName": "sogukicicekler6",
             "description": "",
             "price": 6
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_sprite.jpg",
             "name": "Sprite",
             "urlName": "sogukicicekler7",
             "description": "",
             "price": 6
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_ice-tea.jpg",
             "name": "Ice Tea",
             "urlName": "sogukicicekler8",
             "description": "(Seftali, Limon)",
             "price": 6
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_ayran.jpg",
             "name": "Ayran",
             "urlName": "sogukicicekler9",
             "description": "",
             "price": 5
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_soda.jpg",
             "name": "Soda",
             "urlName": "sogukicicekler10",
             "description": "",
             "price": 4
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_limonlu-soda.jpg",
             "name": "Meyveli Soda",
             "urlName": "sogukicicekler11",
             "description": "(Limon)",
             "price": 4
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_erikli-su.png",
             "name": "Su",
             "urlName": "sogukicicekler12",
             "description": "",

@@ -1,6 +1,7 @@
 import React from 'react';
 import Category from './Category';
 import '../styles/Categories.css';
+import limonata from '../images/image_limonata2.jpg';
 
 class Categories extends React.Component {
 
@@ -13,7 +14,7 @@ class Categories extends React.Component {
             { image: '../images/image_sahanda.jpg', name: 'Kahvaltilar', urlName: 'kahvaltilar' },
             { image: '../images/image_mozaik.jpg', name: 'Tatlilar', urlName: 'tatlilar' },
             { image: '../images/image_sahlep.jpg', name: 'Sicak Icicekler', urlName: 'sicakicicekler' },
-            { image: '../images/image_sahlep.jpg', name: 'Soguk Icicekler', urlName: 'sogukicicekler' }
+            { image: '/static/media/image_limonata2.fbcd487b.jpg', name: 'Soguk Icicekler', urlName: 'sogukicicekler' }
         ]
     }
 
@@ -29,7 +30,6 @@ class Categories extends React.Component {
     }
 
     componentDidMount() {
-
     }
 
     render() {
