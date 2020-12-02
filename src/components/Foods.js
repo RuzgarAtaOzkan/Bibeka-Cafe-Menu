@@ -18,6 +18,10 @@ class Foods extends React.Component {
         if (word.includes('sogukicicek')) return 'Soguk Icicekler';
         if (word.includes('sicakicicek')) return 'Sicak Icicekler';
         if (word.includes('anayemek')) return 'Ana Yemekler';
+        if (word.includes('baslangiclar')) return 'Gune Baslarken';
+        if (word.includes('kahvaltilar')) return 'Omlet Cesitleri';
+        if (word.includes('gozleme')) return 'Gözleme Çeşitleri';
+        if (word.includes('tost')) return 'Tost Çeşitleri';
         else {
             return word.charAt(0).toUpperCase() + word.slice(1);
         }

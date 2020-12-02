@@ -1,20 +1,22 @@
 import React from 'react';
 import Category from './Category';
 import '../styles/Categories.css';
-import limonata from '../images/image_limonata2.jpg';
 
 class Categories extends React.Component {
 
     state = {
         categoryInfos: [
             { image: '../images/image_kofte.jpg', name: 'Ana Yemekler', urlName: 'anayemekler' },
-            { image: '../images/image_ekmek_domates.jpg', name: 'Baslangiclar', urlName: 'baslangiclar' },
+            { image: '../images/image_sahanda.jpg', name: 'Gune \n Baslarken', urlName: 'baslangiclar' },
             { image: '../images/image_chicken_wrap.jpg', name: 'Salatalar', urlName: 'salatalar' },
             { image: '../images/image_makarna_sebze.jpg', name: 'Makarnalar', urlName: 'makarnalar' },
-            { image: '../images/image_sahanda.jpg', name: 'Kahvaltilar', urlName: 'kahvaltilar' },
+            { image: '../images/image_kasarli-omlet.jpg', name: 'Omlet Cesitleri', urlName: 'kahvaltilar' },
+            { image: '../images/image_gozleme.jpg', name: 'Gözleme Çeşitleri', urlName: 'gozlemecesitleri' },
+            { image: '../images/image_gozleme.jpg', name: 'Tost Çeşitleri', urlName: 'tostcesitleri' },
             { image: '../images/image_mozaik.jpg', name: 'Tatlilar', urlName: 'tatlilar' },
             { image: '../images/image_sahlep.jpg', name: 'Sicak Icicekler', urlName: 'sicakicicekler' },
-            { image: '/static/media/image_limonata2.fbcd487b.jpg', name: 'Soguk Icicekler', urlName: 'sogukicicekler' }
+            { image: '../images/image_limonata2.jpg', name: 'Soguk Icicekler', urlName: 'sogukicicekler' },
+
         ]
     }
 

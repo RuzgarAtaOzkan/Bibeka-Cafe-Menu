@@ -13,6 +13,7 @@
 
 .food-page__name > p {
     font-size: 2rem;
+
 }
 
 .food-page__table {
@@ -26,6 +27,7 @@
 
 .food-page__des > p {
     font-size: 1.2rem;
+    text-align: center;
 }
 
 .food-page__container th {

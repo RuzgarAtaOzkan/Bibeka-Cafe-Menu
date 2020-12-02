@@ -1,6 +1,6 @@
 .sidebar__container {
     position: fixed;
-    width: 65%;
+    width: 75%;
     left: -100%;
     z-index: 5;
     height: 100%;

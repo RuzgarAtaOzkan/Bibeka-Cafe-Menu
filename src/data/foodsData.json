@@ -38,40 +38,81 @@
     ],
     "baslangiclar": [
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "baslangiclar0"
+            "image": "../images/image_simit.jpg",
+            "name": "Simit Porsiyon",
+            "urlName": "baslangiclar0",
+            "description": "(Beyaz peynirli, kasarli)",
+            "price": 5
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
+            "image": "../images/image_bibeka-simit.jpeg",
+            "name": "Bibeka Simit",
             "urlName": "baslangiclar1",
-            "description": "Efsane yemek"
+            "description": "(Kekik, zeyting yagi, domates, kasar veya beyaz peynir.)",
+            "price": 6
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "baslangiclar2"
+            "image": "../images/image_pogaca-cesitleri.jpg",
+            "name": "Pogaca cesitleri",
+            "urlName": "baslangiclar2",
+            "description": "",
+            "price": 3
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "baslangiclar3"
+            "image": "../images/image_sigara_boregi.jpg",
+            "name": "Sigara Boregi",
+            "urlName": "baslangiclar3",
+            "description": "(Kasarli) (Adet)",
+            "price": 2.50
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "baslangiclar4"
+            "image": "../images/image_ekmek_domates.jpg",
+            "name": "Mini Sandvic",
+            "urlName": "baslangiclar4",
+            "description": "(Kasarli veya Beyaz Peynirli)",
+            "price": 6
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "baslangiclar5"
+            "image": "../images/image_breakfast2.jpg",
+            "name": "Mini Kahvalti Tabagi",
+            "urlName": "baslangiclar5",
+            "description": "(Domates, salatalik, zeytin, beyaz peynir, kasar peyniri, tereyag, bal)",
+            "price": 22
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "baslangiclar6"
+            "image": "../images/image_breakfast.jpg",
+            "name": "Kahvalti Tabagi",
+            "urlName": "baslangiclar6",
+            "description": "(Domates, salatalik, sogus, kasar peynir, beyaz peynir, zeytin, recel, bal, tereyag, nutella, haslanmis yumurta, ilk cay)",
+            "price": 27
+        },
+        {
+            "image": "../images/image_patates-kizartmasi.jpg",
+            "name": "Patates Tava",
+            "urlName": "baslangiclar7",
+            "description": "",
+            "price": 12
+        },
+        {
+            "image": "../images/image_sahanda.jpg",
+            "name": "Sahanda Yumurta",
+            "urlName": "baslangiclar8",
+            "description": "",
+            "price": 16
+        },
+        {
+            "image": "../images/image_sucuklu-yumurta.jpg",
+            "name": "Sucuklu Yumurta",
+            "urlName": "baslangiclar9",
+            "description": "",
+            "price": 20
+        },
+        {
+            "image": "../images/image_menemen.jpg",
+            "name": "Menemen",
+            "urlName": "baslangiclar10",
+            "description": "",
+            "price": 17
         }
     ],
     "salatalar": [
@@ -106,8 +147,8 @@
             "urlName": "kofte"
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
+            "image": "../images/image_patates-kizartmasi.jpg",
+            "name": "Patates Tava",
             "urlName": "kofte"
         }
     ],
@@ -235,74 +276,113 @@
     ],
     "kahvaltilar": [
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
+            "image": "../images/image_omelette.jpg",
+            "name": "Sade",
             "urlName": "kahvaltilar0",
-            "description": "(Kabak, Havuc, Patlican)",
-            "price": {
-                "yarim": 23,
-                "tam": 27
-            }
+            "description": "",
+            "price": 15
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
+            "image": "../images/image_kasarli-omlet.jpg",
+            "name": "Beyaz Peynirli, Kasarli",
             "urlName": "kahvaltilar1",
-            "description": "(Kabak, Havuc, Patlican)",
-            "price": {
-                "yarim": 23,
-                "tam": 27
-            }
+            "description": "",
+            "price": 17
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
+            "image": "../images/image_sucuklu-omlet2.png",
+            "name": "Karisik",
             "urlName": "kahvaltilar2",
-            "description": "(Kabak, Havuc, Patlican)",
-            "price": {
-                "yarim": 23,
-                "tam": 27
-            }
+            "description": "(Sucuklu veya Kasarli)",
+            "price": 21
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
+            "image": "../images/image_sebzeli-omlet.jpg",
+            "name": "Sebzeli",
             "urlName": "kahvaltilar3",
             "description": "(Kabak, Havuc, Patlican)",
-            "price": {
-                "yarim": 23,
-                "tam": 27
-            }
+            "price": 20
+        }
+    ],
+    "gozlemecesitleri": [
+        {
+            "image": "../images/image_kasarli-gozleme.jpg",
+            "name": "Beyaz Peynirli, Kasarli",
+            "urlName": "gozlemecesitleri0",
+            "description": "",
+            "price": 16
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "kahvaltilar4",
-            "description": "(Kabak, Havuc, Patlican)",
-            "price": {
-                "yarim": 23,
-                "tam": 27
-            }
+            "image": "../images/image_patatesli-gozleme.jpg",
+            "name": "Patatesli",
+            "urlName": "gozlemecesitleri1",
+            "description": "",
+            "price": 18
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "kahvaltilar5",
-            "description": "(Kabak, Havuc, Patlican)",
-            "price": {
-                "yarim": 23,
-                "tam": 27
-            }
+            "image": "../images/image_gozleme.jpg",
+            "name": "Karisik",
+            "urlName": "gozlemecesitleri2",
+            "description": "(Sucuklu ve Kasarli)",
+            "price": 22
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "kahvaltilar6",
+            "image": "../images/image_sebzeli-gozleme.jpg",
+            "name": "Sebzeli",
+            "urlName": "gozlemecesitleri3",
             "description": "(Kabak, Havuc, Patlican)",
-            "price": {
-                "yarim": 23,
-                "tam": 27
-            }
+            "price": 20
+        }
+    ],
+    "tostcesitleri": [
+        {
+            "image": "../images/image_beyaz-peynirli-tost.jpg",
+            "name": "Beyaz Peynirli",
+            "urlName": "tostcesitleri0",
+            "description": "",
+            "price": 8
+        },
+        {
+            "image": "../images/image_kasarli-tost.jpg",
+            "name": "Kasarli",
+            "urlName": "tostcesitleri1",
+            "description": "",
+            "price": 8
+        },
+        {
+            "image": "../images/image_kasarli-tost.jpg",
+            "name": "Cift Kasarli",
+            "urlName": "tostcesitleri2",
+            "description": "",
+            "price": 10
+        },
+        {
+            "image": "../images/image_sucuklu-tost.jpg",
+            "name": "Sucuklu",
+            "urlName": "tostcesitleri3",
+            "description": "",
+            "price": 10
+        },
+        {
+            "image": "../images/image_karisik-tost.jpg",
+            "name": "Karisik",
+            "urlName": "tostcesitleri4",
+            "description": "",
+            "price": 12
+        },
+        {
+            "image": "../images/image_zeytin-ezmeli-tost.jpg",
+            "name": "Zeytin Ezmeli",
+            "urlName": "tostcesitleri5",
+            "description": "(Beyaz Peynirli veya Kasarli)",
+            "price": 11
+        },
+        {
+            "image": "../images/image_bibeka-tost.jpg",
+            "name": "Bibeka Tost",
+            "urlName": "tostcesitleri6",
+            "description": "(Kasar, Domates, Hakiki Zeytinyagi, Taze Kekik)",
+            "price": 11
         }
     ],
     "tatlilar": [
