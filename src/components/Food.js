@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Food.css';
 import { Link } from 'react-router-dom';
+import foodsData from '../data/foodsData.json';
+import filtreKahve from '../images/image_filtre-kahve.jpg';
 
 class Food extends React.Component {
 
@@ -9,7 +11,7 @@ class Food extends React.Component {
     }
 
     componentDidMount() {
-
+        console.log(filtreKahve);
     }
 
     render() {

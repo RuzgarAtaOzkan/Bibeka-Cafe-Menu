@@ -4,7 +4,7 @@
     align-items: center;
     border-radius: 18px;
     background-color: white;
-    padding-top: 80px;
+    padding-top: 120px;
 }
 
 .favourite-tastes-slide-bar__container > h2 {
@@ -15,4 +15,8 @@
     display: flex;
     justify-content: center;
     position: relative;
+}
+
+.favourite-tastes-slide-bar__container img {
+    max-width: 24rem;
 }

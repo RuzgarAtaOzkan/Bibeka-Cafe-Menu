@@ -1,5 +1,5 @@
 .food-page__content {
-    padding-top: 100px;
+    padding-top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@
 }
 
 .food-page__content img {
-    border-radius: 1rem;
+    max-width: 100%;
     filter: brightness(90%);
 }
 

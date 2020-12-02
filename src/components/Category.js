@@ -8,8 +8,9 @@ class Category extends React.Component {
             <div className="category__container">
                 <Link to={`/${this.props.info.urlName}`}>
                     <img alt="food-category" src={this.props.info.image} />
+                    <p className="category__title">{this.props.info.name}</p>
                 </Link>
-                <p className="category__title">{this.props.info.name}</p>
+
             </div>
         );
     };

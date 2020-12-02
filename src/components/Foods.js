@@ -3,6 +3,7 @@ import Food from './Food';
 import '../styles/Foods.css';
 import foodsData from '../data/foodsData.json';
 
+
 class Foods extends React.Component {
 
     state = {

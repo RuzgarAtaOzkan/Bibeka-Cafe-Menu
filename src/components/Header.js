@@ -8,6 +8,7 @@ import { TiSocialInstagram } from 'react-icons/ti';
 import { GrClose } from 'react-icons/gr';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+import logo from '../images/image_logo2.png';
 
 class Header extends React.Component {
     
@@ -36,7 +37,7 @@ class Header extends React.Component {
 
                         <Link to="/">
                             <li>
-                                <img alt="logo" src={faker.image.food()} />
+                                <img alt="logo2" src={logo} />
                             </li>
                         </Link>
 

@@ -292,56 +292,56 @@
     ],
     "sicakicicekler": [
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "/static/media/image_turk-kahvesi.0bedf0d2.jpg",
             "name": "Turk Kahvesi",
             "urlName": "sicakicicekler0",
             "description": "",
             "price": 8
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "/static/media/image_nescafe2.6e121d8b.png",
             "name": "Nescafe",
             "urlName": "sicakicicekler1",
             "description": "",
             "price": 9
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "/static/media/image_espresso.f214e719.jpg",
             "name": "Espresso",
             "urlName": "sicakicicekler2",
             "description": "",
             "price": 9
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "/static/media/image_cappuccino.e66be2af.jpg",
             "name": "Cappuccino",
             "urlName": "sicakicicekler3",
             "description": "",
             "price": 14
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "/static/media/image_macchiato.0b99f81b.jpg",
             "name": "Maccihato",
             "urlName": "sicakicicekler4",
             "description": "",
             "price": 10
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "/static/media/image_cafe-latte.53fafbd6.jpg",
             "name": "Cafe Latte",
             "urlName": "sicakicicekler5",
             "description": "",
             "price": 14
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "/static/media/image_cafe-latte-karamel.44188800.jpg",
             "name": "Cafe Latte Karamel",
             "urlName": "sicakicicekler6",
             "description": "",
             "price": 17
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "/static/media/image_filtre-kahve.4596814b.jpg",
             "name": "Filtre Kahve",
             "urlName": "sicakicicekler7",
             "description": "",

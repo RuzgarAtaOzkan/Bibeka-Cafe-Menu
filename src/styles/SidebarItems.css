@@ -2,9 +2,9 @@
     position: fixed;
     width: 65%;
     left: -100%;
-    z-index: 3;
+    z-index: 5;
     height: 100%;
-    background-color: #BE7444;
+    background-color: #fe5722;
     transition: all 0.3s ease-in-out;
 }
 
@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     border: 1px solid ;
+    z-index: 5;
 }
 
 .sidebar__item {

@@ -1,6 +1,7 @@
 import React from 'react';
 import FavouriteTaste from './FavouriteTaste';
 import '../styles/FavouriteTastesSlideBar.css';
+import titleLogo from '../images/bibeka_logo.jpeg';
 
 class FavouriteTastesSlideBar extends React.Component {
 
@@ -11,15 +12,10 @@ class FavouriteTastesSlideBar extends React.Component {
     render() {
         return (
             <div className={"favourite-tastes-slide-bar__container"}>
-                <h2>Favori Lezzetlerimiz</h2>
 
                 <div onClick={this.touchSlideBar} className="favourite-tastes-slide-bar__container__slidebar">
-                    <FavouriteTaste
-                        name="Tavuk Schnitzel"
-                    />
-                    <FavouriteTaste
-                        name="kofte"
-                    />
+
+                    <img alt="logo-title" src={titleLogo} />
                     
                 </div>
             </div>
