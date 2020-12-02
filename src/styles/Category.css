@@ -2,6 +2,7 @@
     padding: 0.2rem;
     display: flex;
     flex-direction: column;
+
 }
 
 
@@ -14,12 +15,16 @@
 }
 
 .category__container p {
+    max-width: 160px ;
+    max-height: 50px;
+    justify-content: center;
     font-weight: bold;
     font-size: 1.5rem;
     text-align: center;
     align-self: center;
     position: relative;
-    bottom: 50%;
+    bottom: 55%;
     z-index: 3;
     color:white;
+    text-align: center; 
 }
