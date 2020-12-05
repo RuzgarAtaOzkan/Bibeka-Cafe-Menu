@@ -28,6 +28,7 @@ class Foods extends React.Component {
     }
     
     displayFoods() {
+        
         return foodsData[this.props.foods].map((item, index) => {
             return (
                 <Food

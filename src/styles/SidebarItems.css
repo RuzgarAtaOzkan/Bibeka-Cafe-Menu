@@ -19,7 +19,9 @@
 .sidebar__item {
     font-size: 1.6rem;
     color: white;
-    padding: 1rem;
+
+    
+    padding: 0.5rem;
     text-align: center;
     cursor: pointer;
     border-top: 1px solid #854217;
