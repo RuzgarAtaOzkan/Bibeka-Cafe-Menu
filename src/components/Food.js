@@ -19,6 +19,8 @@ class Food extends React.Component {
                     <img alt="food" src={this.state.foodInfo.image} />
                     <p>{this.state.foodInfo.name}</p>
 
+                    <p>{this.prop}</p>
+
                     <div className="food__table">
                         <table>
                             <thead>

@@ -1,5 +1,4 @@
 import React from 'react';
-import faker from 'faker';
 import SidebarItems from './SidebarItems';
 import '../styles/Header.css';
 import '../styles/SidebarItems.css';

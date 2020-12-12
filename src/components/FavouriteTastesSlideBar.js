@@ -1,5 +1,4 @@
 import React from 'react';
-import FavouriteTaste from './FavouriteTaste';
 import '../styles/FavouriteTastesSlideBar.css';
 import titleLogo from '../images/bibeka_logo.jpeg';
 

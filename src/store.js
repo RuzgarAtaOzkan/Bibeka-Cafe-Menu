@@ -5,6 +5,7 @@ const rootReducer = combineReducers({
     general: generalReducer
 });
 
-export default () => {
+export default function initStore() {
     return createStore(rootReducer);
 }
+

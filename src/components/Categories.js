@@ -7,10 +7,10 @@ class Categories extends React.Component {
     state = {
         categoryInfos: [
             { image: '../images/image_kofte.jpg', name: 'Ana Yemekler', urlName: 'anayemekler' },
-            { image: '../images/image_sahanda.jpg', name: 'Gune \n Baslarken', urlName: 'baslangiclar' },
+            { image: '../images/image_sahanda.jpg', name: 'Gune \n Baslarken', urlName: 'gunebaslarken' },
             { image: '../images/image_chicken_wrap.jpg', name: 'Salatalar', urlName: 'salatalar' },
             { image: '../images/image_makarna_sebze.jpg', name: 'Makarnalar', urlName: 'makarnalar' },
-            { image: '../images/image_kasarli-omlet.jpg', name: 'Omlet Cesitleri', urlName: 'kahvaltilar' },
+            { image: '../images/image_kasarli-omlet.jpg', name: 'Omlet Cesitleri', urlName: 'omletcesitleri' },
             { image: '../images/image_gozleme.jpg', name: 'Gözleme Çeşitleri', urlName: 'gozlemecesitleri' },
             { image: '../images/image_bibeka-tost.jpg', name: 'Tost Çeşitleri', urlName: 'tostcesitleri' },
             { image: '../images/image_mozaik.jpg', name: 'Tatlilar', urlName: 'tatlilar' },

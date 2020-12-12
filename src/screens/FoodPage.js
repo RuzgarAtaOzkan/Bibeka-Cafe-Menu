@@ -7,16 +7,28 @@ import { connect } from 'react-redux';
 
 
 class FoodPage extends React.Component {
+    
 
     state = {
-        food: foodsData[this.props.match.params.foodsCategory].find(item => item.urlName === this.props.match.params.food)
+        food: this.configFoodState()
+    }
+
+    configFoodState() {
+        if (foodsData[this.props.match.params.foodsCategory].sicaklar) {
+            return foodsData[this.props.match.params.foodsCategory].sicaklar.find(item => item.urlName === this.props.match.params.food);
+        } else if (foodsData[this.props.match.params.foodsCategory].soguklar) {
+            return foodsData[this.props.match.params.foodsCategory].soguklar.find(item => item.urlName === this.props.match.params.food);
+        } else {
+            return foodsData[this.props.match.params.foodsCategory].find(item => item.urlName === this.props.match.params.food);
+        }
     }
 
     componentDidMount() {
-        
+        console.log(foodsData[this.props.match.params.foodsCategory]);
     }
 
     render() {
+        console.log(foodsData[this.props.match.params.foodsCategory]);
         return (
             <div className="food-page__container">
                 <Header />

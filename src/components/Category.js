@@ -10,7 +10,7 @@ class Category extends React.Component {
                     <img alt="food-category" src={this.props.info.image} />
 
                 </Link>
-                    <p className="category__title">{this.props.info.name}</p>
+                <p className="category__title">{this.props.info.name}</p>
             </div>
         );
     };
