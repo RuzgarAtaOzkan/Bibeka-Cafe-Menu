@@ -11,25 +11,17 @@ class FoodsPage extends React.Component {
         foodsCategory: this.props.match.params.foodsCategory 
     }
 
-    displayDynamicRoutes() {
-        return (
-            <Foods
-                foods={this.state.foodsCategory}
-            />
-        );
-    }
-
     render() {
         return (
             <div className="foods-page__container">
                 <Header />
                 <div 
                     className="foods-page__content"
-                    onClick={() => {
-                        this.props.closeSideBar();
-                    }}
+                    onClick={() => this.props.closeSideBar()}
                 >
-                    {this.displayDynamicRoutes()}
+                    <Foods
+                        foods={this.state.foodsCategory}
+                    />
                 </div>
                 <Footer />
             </div>
