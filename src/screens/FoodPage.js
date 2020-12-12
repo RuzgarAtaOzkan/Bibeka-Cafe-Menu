@@ -24,11 +24,10 @@ class FoodPage extends React.Component {
     }
 
     componentDidMount() {
-        console.log(foodsData[this.props.match.params.foodsCategory]);
+        
     }
 
     render() {
-        console.log(foodsData[this.props.match.params.foodsCategory]);
         return (
             <div className="food-page__container">
                 <Header />

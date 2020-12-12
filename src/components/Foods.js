@@ -11,7 +11,7 @@ class Foods extends React.Component {
     }
 
     componentDidMount() {
-
+        
     }
 
     configTitle(word) {
@@ -29,7 +29,6 @@ class Foods extends React.Component {
 
     displayWarmFoods() {
         return foodsData[this.props.foods].sicaklar.map((item, index) => {
-            console.log(item);
             return (
                 <Food
                     key={index}
@@ -42,7 +41,6 @@ class Foods extends React.Component {
 
     displayColdFoods() {
         return foodsData[this.props.foods].soguklar.map((item, index) => {
-            console.log(item);
             return (
                 <Food
                     key={index}
@@ -54,8 +52,8 @@ class Foods extends React.Component {
     }
 
     displayFoods() {
-        if (this.props.foods === 'omletcesitleri') {
-
+        if (foodsData[this.props.foods].sicaklar || foodsData[this.props.foods].soguklar) {
+            // if your foodsData[this.props.foods] has divided to sicaks and soguks you will enter that section
             return (
                 <div className="foods__container">
                     <h1 style={{ color: 'red' }}>Sicaklar</h1>
@@ -64,7 +62,6 @@ class Foods extends React.Component {
                     {this.displayColdFoods()}
                 </div>
             );
-
         } else {
             return foodsData[this.props.foods].map((item, index) => {
                 return (

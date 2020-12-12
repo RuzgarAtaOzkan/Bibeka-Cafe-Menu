@@ -40,77 +40,77 @@
         {
             "image": "../images/image_simit.jpg",
             "name": "Simit Porsiyon",
-            "urlName": "baslangiclar0",
+            "urlName": "gunebaslarken0",
             "description": "(Beyaz peynirli, kasarli)",
             "price": 5
         },
         {
             "image": "../images/image_bibeka-simit.jpeg",
             "name": "Bibeka Simit",
-            "urlName": "baslangiclar1",
+            "urlName": "gunebaslarken1",
             "description": "(Kekik, zeyting yagi, domates, kasar veya beyaz peynir.)",
             "price": 6
         },
         {
             "image": "../images/image_pogaca-cesitleri.jpg",
             "name": "Pogaca cesitleri",
-            "urlName": "baslangiclar2",
+            "urlName": "gunebaslarken2",
             "description": "",
             "price": 3
         },
         {
             "image": "../images/image_sigara_boregi.jpg",
             "name": "Sigara Boregi",
-            "urlName": "baslangiclar3",
+            "urlName": "gunebaslarken3",
             "description": "(Kasarli) (Adet)",
             "price": 2.50
         },
         {
             "image": "../images/image_ekmek_domates.jpg",
             "name": "Mini Sandvic",
-            "urlName": "baslangiclar4",
+            "urlName": "gunebaslarken4",
             "description": "(Kasarli veya Beyaz Peynirli)",
             "price": 6
         },
         {
             "image": "../images/image_breakfast2.jpg",
             "name": "Mini Kahvalti Tabagi",
-            "urlName": "baslangiclar5",
+            "urlName": "gunebaslarken5",
             "description": "(Domates, salatalik, zeytin, beyaz peynir, kasar peyniri, tereyag, bal)",
             "price": 22
         },
         {
             "image": "../images/image_breakfast.jpg",
             "name": "Kahvalti Tabagi",
-            "urlName": "baslangiclar6",
+            "urlName": "gunebaslarken6",
             "description": "(Domates, salatalik, sogus, kasar peynir, beyaz peynir, zeytin, recel, bal, tereyag, nutella, haslanmis yumurta, ilk cay)",
             "price": 27
         },
         {
             "image": "../images/image_patates-kizartmasi.jpg",
             "name": "Patates Tava",
-            "urlName": "baslangiclar7",
+            "urlName": "gunebaslarken7",
             "description": "",
             "price": 12
         },
         {
             "image": "../images/image_sahanda.jpg",
             "name": "Sahanda Yumurta",
-            "urlName": "baslangiclar8",
+            "urlName": "gunebaslarken8",
             "description": "",
             "price": 16
         },
         {
             "image": "../images/image_sucuklu-yumurta.jpg",
             "name": "Sucuklu Yumurta",
-            "urlName": "baslangiclar9",
+            "urlName": "gunebaslarken9",
             "description": "",
             "price": 20
         },
         {
             "image": "../images/image_menemen.jpg",
             "name": "Menemen",
-            "urlName": "baslangiclar10",
+            "urlName": "gunebaslarken10",
             "description": "",
             "price": 17
         }
