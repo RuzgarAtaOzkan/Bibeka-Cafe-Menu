@@ -6,7 +6,6 @@ import Footer from '../components/Footer';
 import { connect } from 'react-redux';
 
 class FoodPage extends React.Component {
-    
 
     state = {
         food: this.configFood(foodsData[this.props.match.params.foodsCategory]),
@@ -14,7 +13,6 @@ class FoodPage extends React.Component {
     }
 
     configFood(foodsCategory) {
-        console.log(foodsCategory);
         if (!foodsCategory.sicaklar && !foodsCategory.soguklar) {
             return foodsCategory.find(item => item.urlName === this.props.match.params.food);
         } else {
@@ -22,20 +20,26 @@ class FoodPage extends React.Component {
             foodsCategory.sicaklar.find(item => item.urlName === this.props.match.params.food) :
             foodsCategory.soguklar.find(item => item.urlName === this.props.match.params.food)
         }
-
     }
 
     findWarmOrCold(foodsCategory) {
-        const temperatureLevels = Object.getOwnPropertyNames(foodsCategory);
-        temperatureLevels.forEach((temperature, index) => {
-            if (foodsCategory[temperature].find(item => item.urlName === this.props.match.params.food)) {
-                this.setState({ temperatureCategory: temperature });
-            }
-        });
+        if (foodsCategory.sicaklar || foodsCategory.soguklar) {
+            const temperatureLevels = Object.getOwnPropertyNames(foodsCategory);
+            const temperetaures = [];
+            temperatureLevels.forEach((temperature, index) => {
+                if (foodsCategory[temperature].find(item => item.urlName === this.props.match.params.food)) {
+                    //this.setState({ temperatureCategory: `(${temperature})` });
+                    temperetaures.push(`(${temperature})`);
+                }
+            });
+            return temperetaures;
+        } else {
+            return null;
+        }
     }
 
     componentDidMount() {
-        this.findWarmOrCold(foodsData[this.props.match.params.foodsCategory]);
+        console.log(this.findWarmOrCold(foodsData[this.props.match.params.foodsCategory]));
     }
 
     render() {
@@ -53,7 +57,7 @@ class FoodPage extends React.Component {
                     <img alt="food" src={this.state.food.image} />
 
                     <div className="food-page__name">
-                        <p>{this.state.food.name} {`(${this.state.temperatureCategory})`}</p>
+                        <p>{this.state.food.name} {this.findWarmOrCold(foodsData[this.props.match.params.foodsCategory])}</p>
                     </div>
 
                     <div className="food-page__table">
