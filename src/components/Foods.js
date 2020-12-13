@@ -27,43 +27,9 @@ class Foods extends React.Component {
         }
     }
 
-    displayWarmFoods() {
-        return foodsData[this.props.foods].sicaklar.map((item, index) => {
-            return (
-                <Food
-                    key={index}
-                    food={item}
-                    foodsCategoryURL={this.props.foods}
-                />
-            );
-        });
-    }
-
-    displayColdFoods() {
-        return foodsData[this.props.foods].soguklar.map((item, index) => {
-            return (
-                <Food
-                    key={index}
-                    food={item}
-                    foodsCategoryURL={this.props.foods}
-                />
-            );
-        });
-    }
-
-    displayFoods() {
-        if (foodsData[this.props.foods].sicaklar || foodsData[this.props.foods].soguklar) {
-            // if your foodsData[this.props.foods] has divided to sicaks and soguks you will enter that section
-            return (
-                <div className="foods__container">
-                    <h1 style={{ color: 'red' }}>Sicaklar</h1>
-                    {this.displayWarmFoods()}
-                    <h1 style={{ color: 'blue' }}>Soguklar</h1>
-                    {this.displayColdFoods()}
-                </div>
-            );
-        } else {
-            return foodsData[this.props.foods].map((item, index) => {
+    displayWarmFoods(foodsCategory) {
+        if (foodsCategory.sicaklar) {
+            return foodsData[this.props.foods].sicaklar.map((item, index) => {
                 return (
                     <Food
                         key={index}
@@ -73,14 +39,61 @@ class Foods extends React.Component {
                 );
             });
         }
+    }
 
+    displayColdFoods(foodsCategory) {
+        if (foodsCategory.soguklar) {
+            return foodsData[this.props.foods].soguklar.map((item, index) => {
+                return (
+                    <Food
+                        key={index}
+                        food={item}
+                        foodsCategoryURL={this.props.foods}
+                    />
+                );
+            });
+        }
+    }
+
+    displayFoods(foodsCategory) {
+        if (foodsCategory) {
+            return foodsCategory.map((item, index) => {
+                return (
+                    <Food
+                        key={index}
+                        food={item}
+                        foodsCategoryURL={this.props.foods}
+                    />
+                );
+            });
+        }
+    }
+
+    configAndDisplayFoods(foodsCategory) {
+        if (!Array.isArray(foodsCategory)) { // if it is not an array so it means that it has properties like sicak and soguk so it is dividing
+            // if your foodsData[this.props.foods] has divided to sicaks and soguks you will enter that section
+            return (
+                <div className="foods__container">
+                    <h1 style={{ color: 'red' }}>Sicaklar</h1>
+                    {this.displayWarmFoods(foodsCategory)}
+                    <h1 style={{ color: 'blue' }}>Soguklar</h1>
+                    {this.displayColdFoods(foodsCategory)}
+                </div>
+            );
+        } else {
+            return (
+                <div className="foods__container">
+                    {this.displayFoods(foodsCategory)}
+                </div>
+            );
+        }
     }
 
     render() {
         return (
             <div className="foods__container">
                 <h1>{this.configTitle(this.props.foods)}</h1>
-                {this.displayFoods()}
+                {this.configAndDisplayFoods(foodsData[this.props.foods])} {/* Initialize this function here its going to config and display foods */}
             </div>
         );
     };
