@@ -21,6 +21,7 @@ class Header extends React.Component {
 
     switchSidebar() {
         this.props.switchSideBar();
+
     }
 
     render() {
