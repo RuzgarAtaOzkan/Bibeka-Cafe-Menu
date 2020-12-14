@@ -21,6 +21,7 @@ class Foods extends React.Component {
         this.setState({ foodsCategoryObject: foodsData[this.props.foodsCategory] });
     }
 
+    // yemek kategorisinin basligini birlesik olmamasi ve buyuk harfle baslamasi icin ayarliyoruz ve ayrica eger kategori isi dagilimlarina ayriliyorsa rengini degistiriyoruz ki daha guzel gorunsun
     configTitle(word) {
         switch (word) {
             case 'sogukicicekler'.toLowerCase():
@@ -38,7 +39,7 @@ class Foods extends React.Component {
             case 'tostcesitleri'.toLowerCase():
                 return <h1>Tost Cesitleri</h1>;
             case 'sicaklar'.toLowerCase():
-                return <h1 style={{ color: 'red' }}>Sicaklar</h1>;
+                return <h1 style={{ color: 'red' }}>Sicaklar</h1>; 
             case 'soguklar'.toLowerCase():
                 return <h1 style={{ color: 'blue' }}>Sogukler</h1>;
             default:
@@ -47,6 +48,7 @@ class Foods extends React.Component {
     }
 
 
+    // it finds all the properties that foodsCategoryObject has if it is not an array, takes each property and display it contents one by one
     displayTemperatureCategoryFoods(foodsCategory) {
         //with thisk approach we can display all the properties of foodsCategory if it is dividing to temperatures
         const temperatureCategories = Object.getOwnPropertyNames(foodsCategory);
