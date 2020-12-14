@@ -307,37 +307,36 @@
         ],
         "soguklar": [
             {
-                "image": "../images/image_omelette.jpg",
-                "name": "Sade",
-                "urlName": "omletcesitleri4",
-                "description": "",
-                "price": 15
-            },
-            {
-                "image": "../images/image_kasarli-omlet.jpg",
+                "image": "../images/image_kasarli-gozleme.jpg",
                 "name": "Beyaz Peynirli, Kasarli",
-                "urlName": "omletcesitleri5",
+                "urlName": "gozlemecesitleri4",
                 "description": "",
-                "price": 17
+                "price": 16
             },
             {
-                "image": "../images/image_sucuklu-omlet2.png",
+                "image": "../images/image_patatesli-gozleme.jpg",
+                "name": "Patatesli",
+                "urlName": "gozlemecesitleri5",
+                "description": "",
+                "price": 18
+            },
+            {
+                "image": "../images/image_gozleme.jpg",
                 "name": "Karisik",
-                "urlName": "omletcesitleri6",
-                "description": "(Sucuklu veya Kasarli)",
-                "price": 21
+                "urlName": "gozlemecesitleri6",
+                "description": "(Sucuklu ve Kasarli)",
+                "price": 22
             },
             {
-                "image": "../images/image_sebzeli-omlet.jpg",
+                "image": "../images/image_sebzeli-gozleme.jpg",
                 "name": "Sebzeli",
-                "urlName": "omletcesitleri7",
+                "urlName": "gozlemecesitleri7",
                 "description": "(Kabak, Havuc, Patlican)",
                 "price": 20
             }
         ]
     },
     "gozlemecesitleri": [
-
         {
             "image": "../images/image_kasarli-gozleme.jpg",
             "name": "Beyaz Peynirli, Kasarli",

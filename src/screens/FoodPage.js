@@ -12,13 +12,24 @@ class FoodPage extends React.Component {
         temperatureCategory: null
     }
 
+    componentDidMount() {
+        this.setState({ food: this.configFood(foodsData[this.props.match.params.foodsCategory]) });
+    }
+
     configFood(foodsCategory) { // check if the specific food is in the sicaklar or soguklar section, if so return it.
-        if (Array.isArray(foodsCategory)) {
-            return foodsCategory.find(item => item.urlName === this.props.match.params.food);
-        } else {
-            return foodsCategory.sicaklar.find(item => item.urlName === this.props.match.params.food) ?
-            foodsCategory.sicaklar.find(item => item.urlName === this.props.match.params.food) :
-            foodsCategory.soguklar.find(item => item.urlName === this.props.match.params.food)
+        if (foodsCategory) {
+            if (Array.isArray(foodsCategory)) {
+                return foodsCategory.find(item => item.urlName === this.props.match.params.food);
+            } else {
+                const temperatureCategories = Object.getOwnPropertyNames(foodsCategory);
+                for (let i = 0; i < temperatureCategories.length; i++) {
+                    const food = foodsCategory[temperatureCategories[i]].find((food, foodIndex) => {
+                        return food.urlName === this.props.match.params.food;
+                    });
+
+                    if (food) return food;
+                }
+            }
         }
     }
 
@@ -36,10 +47,6 @@ class FoodPage extends React.Component {
         } else {
             return null;
         }
-    }
-
-    componentDidMount() {
-        //this.findWarmOrCold(foodsData[this.props.match.params.foodsCategory]);
     }
 
     render() {

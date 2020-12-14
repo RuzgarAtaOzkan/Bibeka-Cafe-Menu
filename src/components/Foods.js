@@ -3,7 +3,6 @@ import Food from './Food';
 import '../styles/Foods.css';
 import foodsData from '../data/foodsData.json';
 
-
 class Foods extends React.Component {
 
     // foodsCategory represenets the name of the category, foodsCategoryObject represents the jSON object which contains the information about the foodsCategory
@@ -42,6 +41,8 @@ class Foods extends React.Component {
                 return <h1 style={{ color: 'red' }}>Sicaklar</h1>; 
             case 'soguklar'.toLowerCase():
                 return <h1 style={{ color: 'blue' }}>Sogukler</h1>;
+            case 'makarnalar':
+                return <h1>Makarnalar</h1>;
             default:
                 return 'Default Title';
         }
@@ -65,7 +66,7 @@ class Foods extends React.Component {
                                 <Food
                                     key={foodIndex}
                                     food={food}
-                                    foodsCategoryURL={this.props.foods}
+                                    foodsCategoryURL={this.props.foodsCategory}
                                 />
                             );
                         })
@@ -82,7 +83,7 @@ class Foods extends React.Component {
                     <Food
                         key={index}
                         food={item}
-                        foodsCategoryURL={this.props.foods}
+                        foodsCategoryURL={this.props.foodsCategory}
                     />
                 );
             });
