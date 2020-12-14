@@ -39,7 +39,7 @@ class FoodPage extends React.Component {
     }
 
     componentDidMount() {
-        this.findWarmOrCold(foodsData[this.props.match.params.foodsCategory]);
+        //this.findWarmOrCold(foodsData[this.props.match.params.foodsCategory]);
     }
 
     render() {
