@@ -11,7 +11,7 @@ class Foods extends React.Component {
     }
 
     componentDidMount() {
-        
+
     }
 
     configTitle(word) {
@@ -52,6 +52,9 @@ class Foods extends React.Component {
                     />
                 );
             });
+        } else {
+            console.log(`foodsCategory.soguklar or foodsCategory.sicaklar Couldnt be found in Foods.js`)
+            return null;
         }
     }
 
@@ -66,12 +69,16 @@ class Foods extends React.Component {
                     />
                 );
             });
+        } else {
+            console.log(`foodsCategory Couldnt be found in Foods.js`)
+            return null;
         }
     }
 
     configAndDisplayFoods(foodsCategory) {
         if (!Array.isArray(foodsCategory)) { // if it is not an array so it means that it has properties like sicak and soguk so it is dividing
             // if your foodsData[this.props.foods] has divided to sicaks and soguks you will enter that section
+            console.log(Array.isArray(foodsCategory));
             return (
                 <div className="foods__container">
                     <h1 style={{ color: 'red' }}>Sicaklar</h1>
@@ -81,6 +88,7 @@ class Foods extends React.Component {
                 </div>
             );
         } else {
+            console.log(Array.isArray(foodsCategory))
             return (
                 <div className="foods__container">
                     {this.displayFoods(foodsCategory)}
