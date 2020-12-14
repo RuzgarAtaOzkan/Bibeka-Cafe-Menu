@@ -16,13 +16,16 @@ class FoodPage extends React.Component {
         this.setState({ food: this.configFood(foodsData[this.props.match.params.foodsCategory]) });
     }
 
-    configFood(foodsCategory) { // check if the specific food is in the sicaklar or soguklar section, if so return it.
+    configFood(foodsCategory) { // iterate through foodsCategory's properties to find where the specific food we want to display is at.
+    // with this approach we can find all the properties that the foodsCategory object has, it is automated.
         if (foodsCategory) {
             if (Array.isArray(foodsCategory)) {
                 return foodsCategory.find(item => item.urlName === this.props.match.params.food);
             } else {
                 const temperatureCategories = Object.getOwnPropertyNames(foodsCategory);
+
                 for (let i = 0; i < temperatureCategories.length; i++) {
+
                     const food = foodsCategory[temperatureCategories[i]].find((food, foodIndex) => {
                         return food.urlName === this.props.match.params.food;
                     });
