@@ -20,7 +20,7 @@ class FoodsPage extends React.Component {
                     onClick={() => this.props.closeSideBar()}
                 >
                     <Foods
-                        foods={this.state.foodsCategory}
+                        foodsCategory={this.state.foodsCategory}
                     />
                 </div>
                 <Footer />
