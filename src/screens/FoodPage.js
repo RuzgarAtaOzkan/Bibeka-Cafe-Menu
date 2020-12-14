@@ -12,7 +12,7 @@ class FoodPage extends React.Component {
         temperatureCategory: null
     }
 
-    configFood(foodsCategory) {
+    configFood(foodsCategory) { // check if the specific food is in the sicaklar or soguklar section, if so return it.
         if (!foodsCategory.sicaklar && !foodsCategory.soguklar) {
             return foodsCategory.find(item => item.urlName === this.props.match.params.food);
         } else {
@@ -22,7 +22,7 @@ class FoodPage extends React.Component {
         }
     }
 
-    findWarmOrCold(foodsCategory) {
+    findWarmOrCold(foodsCategory) { // check if the selected food in the sicaklar or soguklar section in the foods data.
         if (foodsCategory.sicaklar || foodsCategory.soguklar) {
             const temperatureLevels = Object.getOwnPropertyNames(foodsCategory);
             const temperetaures = [];
@@ -36,6 +36,10 @@ class FoodPage extends React.Component {
         } else {
             return null;
         }
+    }
+
+    componentDidMount() {
+        this.findWarmOrCold(foodsData[this.props.match.params.foodsCategory]);
     }
 
     render() {
