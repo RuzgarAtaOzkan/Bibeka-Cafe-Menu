@@ -31,6 +31,7 @@ class FoodPage extends React.Component {
                     });
 
                     if (food) return food;
+                    
                 }
             }
         }
