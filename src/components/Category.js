@@ -10,7 +10,9 @@ class Category extends React.Component {
                     <img alt="food-category" src={this.props.info.image} />
 
                 </Link>
-                <p className="category__title">{this.props.info.name}</p>
+                <a href={`/${this.props.info.urlName}`}>
+                    <p className="category__title">{this.props.info.name}</p>
+                </a>
             </div>
         );
     };
