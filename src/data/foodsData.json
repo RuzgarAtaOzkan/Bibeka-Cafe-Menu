@@ -3,37 +3,65 @@
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "anayemekler0"
+            "urlName": "anayemekler0",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kofteanayemek1"
+            "urlName": "kofteanayemek1",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kofteanayemek2"
+            "urlName": "kofteanayemek2",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kofteanayemek3"
+            "urlName": "kofteanayemek3",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kofteanayemek4"
+            "urlName": "kofteanayemek4",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kofteanayemek5"
+            "urlName": "kofteanayemek5",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kofteanayemek6"
+            "urlName": "kofteanayemek6",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         }
     ],
     "gunebaslarken": [
@@ -119,37 +147,65 @@
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "salatalar0"
+            "urlName": "salatalar0",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kofte"
+            "urlName": "salatalar1",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kofte"
+            "urlName": "salatalar2",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kofte"
+            "urlName": "salatalar3",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kofte"
+            "urlName": "salatalar4",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         },
         {
             "image": "../images/image_buneamk.jpg",
             "name": "Kofte",
-            "urlName": "kofte"
+            "urlName": "salatalar5",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         },
         {
-            "image": "../images/image_patates-kizartmasi.jpg",
-            "name": "Patates Tava",
-            "urlName": "kofte"
+            "image": "../images/image_buneamk.jpg",
+            "name": "Salata",
+            "urlName": "salatalar6",
+            "price": {
+                "yarim": 20,
+                "tam": 25
+            }
         }
     ],
     "makarnalar": [

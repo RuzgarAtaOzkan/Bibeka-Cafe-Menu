@@ -92,7 +92,7 @@ class FoodPage extends React.Component {
 
                     <div className="food-page__des">
 
-                        <p>{this.state.food.description}</p>
+                        <p>{this.state.food.description ? this.state.food.description : null}</p>
                     </div>
                 </div>
 

@@ -13,7 +13,7 @@ class Footer extends React.Component {
                 </div>
                 <p>Bibeka Cafe Inc. Ⓡ</p>
                 <a rel="noreferrer" href="https://www.github.com/uitwaaien6" target="_blank"> {/* might direct the user to my github */}
-                    <p id="footer__designer-signature">Designed by Ruzgar Ata Ozkan.</p>
+                    <p id="footer__designer-signature">Designed by Mert Agca.</p>
                 </a>
 
             </div>

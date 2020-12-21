@@ -43,6 +43,10 @@ class Foods extends React.Component {
                 return <h1 style={{ color: 'blue' }}>Sogukler</h1>;
             case 'makarnalar':
                 return <h1>Makarnalar</h1>;
+            case 'tatlilar':
+                return <h1>Tatlilar</h1>;
+            case 'salatalar':
+                return <h1>Salatalar</h1>;
             default:
                 return 'Default Title';
         }
@@ -51,29 +55,31 @@ class Foods extends React.Component {
 
     // it finds all the properties that foodsCategoryObject has if it is not an array, takes each property and display it contents one by one
     displayTemperatureCategoryFoods(foodsCategory) {
-        //with thisk approach we can display all the properties of foodsCategory if it is dividing to temperatures
-        const temperatureCategories = Object.getOwnPropertyNames(foodsCategory);
-        return temperatureCategories.map((temperatureCategory, temperatureCategoryIndex) => {
-            return (
-                <div
-                    key={temperatureCategoryIndex}
-                    className="foods__container"
-                >
-                    {this.configTitle(temperatureCategory)}
-                    {
-                        foodsCategory[temperatureCategory].map((food, foodIndex) => {
-                            return (
-                                <Food
-                                    key={foodIndex}
-                                    food={food}
-                                    foodsCategoryURL={this.props.foodsCategory}
-                                />
-                            );
-                        })
-                    }
-                </div>
-            );
-        });
+        if (foodsCategory) {
+            //with thisk approach we can display all the properties of foodsCategory if it is dividing to temperatures
+            const temperatureCategories = Object.getOwnPropertyNames(foodsCategory);
+            return temperatureCategories.map((temperatureCategory, temperatureCategoryIndex) => {
+                return (
+                    <div
+                        key={temperatureCategoryIndex}
+                        className="foods__container"
+                    >
+                        {this.configTitle(temperatureCategory)}
+                        {
+                            foodsCategory[temperatureCategory].map((food, foodIndex) => {
+                                return (
+                                    <Food
+                                        key={foodIndex}
+                                        food={food}
+                                        foodsCategoryURL={this.props.foodsCategory}
+                                    />
+                                );
+                            })
+                        }
+                    </div>
+                );
+            });
+        }
     }
 
     displayFoods(foodsCategory) {
@@ -111,7 +117,7 @@ class Foods extends React.Component {
         return (
             <div className="foods__container">
                 {this.configTitle(this.props.foodsCategory)}
-                {this.configAndDisplayFoods(this.state.foodsCategoryObject)} {/* Initialize this function here its going to config and display foods */}
+                {this.configAndDisplayFoods(foodsData[this.props.foodsCategory])} {/* Initialize this function here its going to config and display foods */}
             </div>
         );
     };
