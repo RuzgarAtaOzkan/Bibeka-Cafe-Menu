@@ -1,67 +1,102 @@
 {
     "anayemekler": [
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
+            "image": "../images/image_kofte-izgara2.jpg",
+            "name": "Kofte Izgara",
             "urlName": "anayemekler0",
-            "price": {
-                "yarim": 20,
-                "tam": 25
-            }
+            "description": "(Kozlenmis Domates, Biber, Yesillik, Patates esliginde)",
+            "price": 30
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "kofteanayemek1",
-            "price": {
-                "yarim": 20,
-                "tam": 25
-            }
+            "image": "../images/image_tavuk-izgara.jpg",
+            "name": "Tavuk Izgara",
+            "urlName": "anayemekler1",
+            "description": "(Kozlenmis Domates, Biber, Yesillik, Patates Esliginde)",
+            "price": 29
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "kofteanayemek2",
-            "price": {
-                "yarim": 20,
-                "tam": 25
-            }
+            "image": "../images/image_biftek-izgara.jpg",
+            "name": "Biftek Izgara",
+            "urlName": "anayemekler2",
+            "description": "(Kozlenmis Domts, Biber, Yesillik, Patates Esliginde)",
+            "price": 42
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "kofteanayemek3",
-            "price": {
-                "yarim": 20,
-                "tam": 25
-            }
+            "image": "../images/image_tavuk-schnitzel.jpeg",
+            "name": "Schnitzel",
+            "urlName": "anayemekler3",
+            "description": "(Domates, Salatalik, Yesillik, Patates Esliginde)",
+            "price": 29
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "kofteanayemek4",
-            "price": {
-                "yarim": 20,
-                "tam": 25
-            }
+            "image": "../images/image_balzemik-soslu-tavuk.jpeg",
+            "name": "Balzemik Soslu Tavuk",
+            "urlName": "anayemekler4",
+            "description": "(Domates, Salatalik, Yesillik, Patates Esliginde)",
+            "price": 30
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "kofteanayemek5",
-            "price": {
-                "yarim": 20,
-                "tam": 25
-            }
+            "image": "../images/image_bibeka-ozel.jpeg",
+            "name": "Bibeka Ozel",
+            "urlName": "anayemekler5",
+            "description": "(2 Parca Kofte, Yarim Tavuk, Penne Pesto Makarna, Mevsim Salata ve Patates Esliginde)",
+            "price": 38
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
-            "urlName": "kofteanayemek6",
-            "price": {
-                "yarim": 20,
-                "tam": 25
-            }
+            "image": "../images/image_citir-patates-tabagi.jpeg",
+            "name": "Citir Patates Tabagi",
+            "urlName": "anayemekler6",
+            "description": "(Citir Tavuk Parcalari, Patates Kizartmasi, Mevsim Salata)",
+            "price": 28
+        },
+        {
+            "image": "../images/image_kofte-hellim.jpeg",
+            "name": "Kofte Hellim Tabagi",
+            "urlName": "anayemekler7",
+            "description": "(3 Parca Kofte, 2 Parca Hellim, Mevsim Salata, Kozlenmis Biber)",
+            "price": 27
+        },
+        {
+            "image": "../images/image_kofte.jpg",
+            "name": "Kofte Penne Pesto",
+            "urlName": "anayemekler8",
+            "description": "(3 Parca Kofte, Penne Pesto Makarna, Mevsim Salata, Kozlenmis Biber)",
+            "price": 28
+        },
+        {
+            "image": "../images/image_pesto-hellim.jpeg",
+            "name": "Pesto Hellim Tabagi",
+            "urlName": "anayemekler9",
+            "description": "(3 Parca Izgara Hellim Peyniri, Penne Pesto Makarna, Mevsim Salata)",
+            "price": 27
+        },
+        {
+            "image": "../images/image_tavuk-penne-pesto.jpeg",
+            "name": "Tavuk Penne Pesto",
+            "urlName": "anayemekler10",
+            "description": "(Izgara Tavuk, Penne Pesto Makarna, Mevsim Salata, Kozlenmis Biber)",
+            "price": 28
+        },
+        {
+            "image": "../images/image_fried_chicken.jpg",
+            "name": "Citir Penne Pesto",
+            "urlName": "anayemekler11",
+            "description": "(Tavuk Parcalari, Penne Pesto Makarna, Mevsim Salata, Kozlenmis Biber)",
+            "price": 28
+        },
+        {
+            "image": "../images/image_izgara-sebzeli-tavuk.jpeg",
+            "name": "Izgara Sebzeli Tavuk",
+            "urlName": "anayemekler12",
+            "description": "(Karisik Sebzeler, Tavuk Parcalari, Yogurt)",
+            "price": 28
+        },
+        {
+            "image": "../images/image_izgara-sebzeli-kofte2.jpg",
+            "name": "Izgara Sebzeli Kofte",
+            "urlName": "anayemekler13",
+            "description": "(Karisik Sebzeler, 3 Parca Kofte, Yogurt)",
+            "price": 28
         }
     ],
     "gunebaslarken": [
@@ -330,68 +365,36 @@
             }
         }
     ],
-    "omletcesitleri": {
-        "sicaklar": [
-            {
-                "image": "../images/image_omelette.jpg",
-                "name": "Sade",
-                "urlName": "omletcesitleri0",
-                "description": "",
-                "price": 15
-            },
-            {
-                "image": "../images/image_kasarli-omlet.jpg",
-                "name": "Beyaz Peynirli, Kasarli",
-                "urlName": "omletcesitleri1",
-                "description": "",
-                "price": 17
-            },
-            {
-                "image": "../images/image_sucuklu-omlet2.png",
-                "name": "Karisik",
-                "urlName": "omletcesitleri2",
-                "description": "(Sucuklu veya Kasarli)",
-                "price": 21
-            },
-            {
-                "image": "../images/image_sebzeli-omlet.jpg",
-                "name": "Sebzeli",
-                "urlName": "omletcesitleri3",
-                "description": "(Kabak, Havuc, Patlican)",
-                "price": 20
-            }
-        ],
-        "soguklar": [
-            {
-                "image": "../images/image_kasarli-gozleme.jpg",
-                "name": "Beyaz Peynirli, Kasarli",
-                "urlName": "gozlemecesitleri4",
-                "description": "",
-                "price": 16
-            },
-            {
-                "image": "../images/image_patatesli-gozleme.jpg",
-                "name": "Patatesli",
-                "urlName": "gozlemecesitleri5",
-                "description": "",
-                "price": 18
-            },
-            {
-                "image": "../images/image_gozleme.jpg",
-                "name": "Karisik",
-                "urlName": "gozlemecesitleri6",
-                "description": "(Sucuklu ve Kasarli)",
-                "price": 22
-            },
-            {
-                "image": "../images/image_sebzeli-gozleme.jpg",
-                "name": "Sebzeli",
-                "urlName": "gozlemecesitleri7",
-                "description": "(Kabak, Havuc, Patlican)",
-                "price": 20
-            }
-        ]
-    },
+    "omletcesitleri": [
+        {
+            "image": "../images/image_omelette.jpg",
+            "name": "Sade",
+            "urlName": "omletcesitleri0",
+            "description": "",
+            "price": 15
+        },
+        {
+            "image": "../images/image_kasarli-omlet.jpg",
+            "name": "Beyaz Peynirli, Kasarli",
+            "urlName": "omletcesitleri1",
+            "description": "",
+            "price": 17
+        },
+        {
+            "image": "../images/image_sucuklu-omlet2.png",
+            "name": "Karisik",
+            "urlName": "omletcesitleri2",
+            "description": "(Sucuklu veya Kasarli)",
+            "price": 21
+        },
+        {
+            "image": "../images/image_sebzeli-omlet.jpg",
+            "name": "Sebzeli",
+            "urlName": "omletcesitleri3",
+            "description": "(Kabak, Havuc, Patlican)",
+            "price": 20
+        }
+    ],
     "gozlemecesitleri": [
         {
             "image": "../images/image_kasarli-gozleme.jpg",
@@ -473,6 +476,69 @@
             "price": 11
         }
     ],
+    "bagetsandvicler": {
+        "soguklar": [
+            {
+                "image": "../images/image_beyaz-peynirli-baget.jpg",
+                "name": "Beyaz Peynirli",
+                "urlName": "bagetsandvicler0",
+                "description": "(Domates, salatalik)",
+                "price": 14
+            },
+            {
+                "image": "../images/image_kasarli-baget.jpg",
+                "name": "Kasar Peynirli",
+                "urlName": "bagetsandvicler1",
+                "description": "(Domates, Salatalik)",
+                "price": 14
+            },
+            {
+                "image": "../images/image_karisik-baget.jpg",
+                "name": "Karisik Sandvic",
+                "urlName": "bagetsandvicler2",
+                "description": "(Beyaz Peynir, Kasar, Domates, Salatalik",
+                "price": 22
+            },
+            {
+                "image": "../images/image_ton-balikli-baget.png",
+                "name": "Ton Balikli",
+                "urlName": "bagetsandvicler3",
+                "description": "(Domates, Tursu)",
+                "price": 22
+            }
+        ],
+        "sicaklar": [
+            {
+                "image": "../images/image_kofteli-baget.jpg",
+                "name": "Kofteli",
+                "urlName": "bagetsandvicler4",
+                "description": "(Domates, Tursu, Patates)",
+                "price": 29
+            },
+            {
+                "image": "../images/image_tavuklu-baget.jpg",
+                "name": "Tavuklu",
+                "urlName": "bagetsandvicler5",
+                "description": "(Domates, Tursu, Patates)",
+                "price": 27
+            },
+            {
+                "image": "../images/image_biftek-dilimli-baget.jpg",
+                "name": "Biftek Dilimli",
+                "urlName": "bagetsandvicler6",
+                "description": "(Domates, Tursu, Patates)",
+                "price": 42
+            },
+            {
+                "image": "../images/image_bibeka-hamburger.jpeg",
+                "name": "Bibeka Hamburger",
+                "urlName": "bagetsandvicler7",
+                "description": "(Patates esliginde)",
+                "price": 25
+            }
+        ]
+
+    },
     "tatlilar": [
         {
             "image": "../images/image_mozaik.jpg",

@@ -13,10 +13,10 @@ class Categories extends React.Component {
             { image: '../images/image_kasarli-omlet.jpg', name: 'Omlet Cesitleri', urlName: 'omletcesitleri' },
             { image: '../images/image_gozleme.jpg', name: 'Gözleme Çeşitleri', urlName: 'gozlemecesitleri' },
             { image: '../images/image_bibeka-tost.jpg', name: 'Tost Çeşitleri', urlName: 'tostcesitleri' },
+            { image: '../images/image_ekmek_domates.jpg', name: 'Baget Sandvicler', urlName: 'bagetsandvicler' },
             { image: '../images/image_mozaik.jpg', name: 'Tatlilar', urlName: 'tatlilar' },
             { image: '../images/image_sahlep.jpg', name: 'Sicak Icicekler', urlName: 'sicakicicekler' },
-            { image: '../images/image_limonata2.jpg', name: 'Soguk Icicekler', urlName: 'sogukicicekler' },
-
+            { image: '../images/image_limonata2.jpg', name: 'Soguk Icicekler', urlName: 'sogukicicekler' }
         ]
     }
 

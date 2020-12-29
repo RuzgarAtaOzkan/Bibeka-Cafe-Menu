@@ -40,9 +40,11 @@ class Foods extends React.Component {
             case 'sicaklar'.toLowerCase():
                 return <h1 style={{ color: 'red' }}>Sicaklar</h1>; 
             case 'soguklar'.toLowerCase():
-                return <h1 style={{ color: 'blue' }}>Sogukler</h1>;
+                return <h1 style={{ color: 'blue' }}>Soguklar</h1>;
             case 'makarnalar':
                 return <h1>Makarnalar</h1>;
+            case 'bagetsandvicler':
+                return <h1>Baget Sandvicler</h1>;
             case 'tatlilar':
                 return <h1>Tatlilar</h1>;
             case 'salatalar':
