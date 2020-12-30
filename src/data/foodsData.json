@@ -265,7 +265,7 @@
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_penne-all-pesto-polo.jpg",
             "name": "Penne All Pesto Polo",
             "urlName": "makarnalar2",
             "description": "(Tavuklu, Feslegen ve Krema)",
@@ -275,7 +275,7 @@
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_penne-allo-di-manzo.jpg",
             "name": "Penne Allo Di Manzo",
             "urlName": "makarnalar3",
             "description": "(Biftek parcalari domates sos ile)",
@@ -285,7 +285,7 @@
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_penne-siciliani.jpeg",
             "name": "Penne Sıcılıana",
             "urlName": "makarnalar4",
             "description": "(Patlican, Zeytin, Domates sos ile.)",
@@ -295,7 +295,7 @@
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_tortellini.jpeg",
             "name": "Tortellini Geneveze",
             "urlName": "makarnalar5",
             "description": "(Feslegen ve Krema soslu)",
@@ -305,7 +305,7 @@
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_noodle-di-manzo.jpg",
             "name": "Noodle Di Manzo",
             "urlName": "makarnalar6",
             "description": "(Biftek parcalari, Sebze ve Soya soslu)",
@@ -315,7 +315,7 @@
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_noodle-di-polo.jpg",
             "name": "Noodle Di Polo",
             "urlName": "makarnalar7",
             "description": "(Tavuk Parcalari, Sebze ve Soya Soslu)",
@@ -325,37 +325,37 @@
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_tavuk-parcali-sade-makarna.jpg",
             "name": "Tavuk Parcali",
             "urlName": "makarnalar8",
-            "description": "",
+            "description": "(Yagsiz, Tuzsuz)",
             "price": {
                 "yarim": 22,
                 "tam": 26
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_ton-balikli-sade-makarna.png",
             "name": "Ton Balikli Misirli",
             "urlName": "makarnalar9",
-            "description": "",
+            "description": "(Yagsiz, Tuzsuz)",
             "price": {
                 "yarim": 23,
                 "tam": 27
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_beyaz-peynirli-misirli-sade-makarna.jpg",
             "name": "Beyaz Peynirli Misirli",
             "urlName": "makarnalar10",
-            "description": "",
+            "description": "(Yagsiz, Tuzsuz)",
             "price": {
                 "yarim": 21,
                 "tam": 25
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
+            "image": "../images/image_sebzeli-sade-makarna.jpg",
             "name": "Sebzeli",
             "urlName": "makarnalar11",
             "description": "(Kabak, Havuc, Patlican)",
@@ -500,7 +500,7 @@
                 "price": 22
             },
             {
-                "image": "../images/image_ton-balikli-baget.png",
+                "image": "../images/image_ton-balikli-baget3.jpeg",
                 "name": "Ton Balikli",
                 "urlName": "bagetsandvicler3",
                 "description": "(Domates, Tursu)",

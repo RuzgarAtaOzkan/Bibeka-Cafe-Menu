@@ -19,7 +19,8 @@ class Food extends React.Component {
                     <img alt="food" src={this.state.foodInfo.image} />
                     <p>{this.state.foodInfo.name}</p>
 
-                    <p>{this.prop}</p>
+                    {this.props.food.urlName === 'makarnalar8' || this.props.food.urlName === 'makarnalar9' || this.props.food.urlName === 'makarnalar10' || this.props.food.urlName === 'makarnalar11' ?  <p style={{  width: '170px',textAlign: 'center' }}>{this.state.foodInfo.description}</p> : null}
+                   
 
                     <div className="food__table">
 

@@ -16,10 +16,10 @@ class FoodsPage extends React.Component {
     configFoods(foodsCategoryURI) {
         if (foodsCategoryURI === 'gununyemekleri') {
             return (
-                <div className="foods-page__content">
+                <div  className="foods-page__content">
 
                     <p>Instagramdan Bakabilirsiniz</p>
-                    <div>
+                    <div style={{ paddingTop: '15px' }}>
                         <FaArrowDown style={{ fontSize: 35, color: 'black' }} />
                     </div>
 
