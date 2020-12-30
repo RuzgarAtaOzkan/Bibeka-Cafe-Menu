@@ -1,6 +1,6 @@
 .food__container {
     padding: 0.2rem;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -28,16 +28,7 @@
     text-align: center;
 }
 
-
-.food__table th {
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-}
-
-.food__table td {
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
+.food__table > div {
+    padding: 0.2rem;
 }
 

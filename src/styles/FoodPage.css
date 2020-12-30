@@ -26,19 +26,12 @@
     font-size: 20px;
 }
 
+.food-page__table p {
+
+    font-size: 25px;
+}
+
 .food-page__des > p {
     font-size: 1.2rem;
     text-align: center;
-}
-
-.food-page__container th {
-    font-size: 28px;
-    font-weight: bold;
-    color: black;
-}
-
-.food-page__container td {
-    font-size: 28px;
-    font-weight: bold;
-    color: black;
 }

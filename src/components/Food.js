@@ -22,22 +22,26 @@ class Food extends React.Component {
                     <p>{this.prop}</p>
 
                     <div className="food__table">
-                        <table>
-                            <thead>
 
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th>{this.state.foodInfo.price.yarim ? "Yarim" : null}</th>
-                                    <th>{this.state.foodInfo.price.tam ? "Tam" : null}</th>
-                                </tr>
-                                <tr>
-                                    <td>{this.state.foodInfo.price.yarim ? `${this.state.foodInfo.price.yarim} TL` : null}</td>
-                                    <td>{this.state.foodInfo.price.tam ? `${this.state.foodInfo.price.tam} TL` : `${this.state.foodInfo.price} TL`}</td>
-                                </tr>
-                            </tbody>
+                        <div>
+                            <div>
+                                <p>{this.state.foodInfo.price.yarim ? "Yarim -" : null}</p>
+                            </div>
+                            <div>
+                                <p>{this.state.foodInfo.price.tam ? "Tam -" : null}</p>
+                            </div>
+                        </div>
 
-                        </table>
+                        <div>
+                            <div>
+                                <p>{this.state.foodInfo.price.yarim ? `${this.state.foodInfo.price.yarim} TL` : null}</p>
+                                
+                            </div>
+                            <div>
+                                <p>{this.state.foodInfo.price.tam ? `${this.state.foodInfo.price.tam} TL` : `${this.state.foodInfo.price} TL`}</p>
+                            </div>
+                        </div>
+
                     </div>
 
                 </Link>

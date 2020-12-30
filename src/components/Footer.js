@@ -8,7 +8,7 @@ class Footer extends React.Component {
             <div className="footer__container">
                 <div>
                     <a href="https://instagram.com/bibekacafe?igshid=iz7bgpt9tuxq">
-                        <TiSocialInstagram /> 
+                        <TiSocialInstagram style={{ fontSize: 55, color: 'black' }} /> 
                     </a> 
                 </div>
                 <p>Bibeka Cafe Inc. Ⓡ</p>

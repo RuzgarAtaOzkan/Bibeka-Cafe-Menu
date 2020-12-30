@@ -72,22 +72,25 @@ class FoodPage extends React.Component {
                     </div>
 
                     <div className="food-page__table">
-                        <table>
-                            <thead>
 
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th>{this.state.food.price.yarim ? "Yarim" : null}</th>
-                                    <th>{this.state.food.price.tam ? "Tam" : null}</th>
-                                </tr>
-                                <tr>
-                                    <td>{this.state.food.price.yarim ? `${this.state.food.price.yarim} TL` : null}</td>
-                                    <td>{this.state.food.price.tam ? `${this.state.food.price.tam} TL` : `${this.state.food.price} TL`}</td>
-                                </tr>
-                            </tbody>
+                        <div>
+                            <div>
+                                <p>{this.state.food.price.yarim ? "Yarim - " : null}</p>
+                            </div>
+                            <div>
+                                <p>{this.state.food.price.tam ? "Tam -" : null}</p>
+                            </div>
+                        </div>
 
-                        </table>
+                        <div style={{ padding: '3px' }}>
+                            <div>
+                                <p>{this.state.food.price.yarim ? ` ${this.state.food.price.yarim} TL` : null}</p>
+                                
+                            </div>
+                            <div>
+                                <p>{this.state.food.price.tam ? `${this.state.food.price.tam} TL` : `${this.state.food.price} TL`}</p>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="food-page__des">

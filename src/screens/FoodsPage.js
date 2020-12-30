@@ -4,6 +4,8 @@ import Foods from '../components/Foods';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { connect } from 'react-redux';
+import { TiSocialInstagram } from 'react-icons/ti';
+import { FaArrowDown } from 'react-icons/fa'
 
 class FoodsPage extends React.Component {
 
@@ -11,10 +13,21 @@ class FoodsPage extends React.Component {
         foodsCategory: this.props.match.params.foodsCategory 
     }
 
-    render() {
-        return (
-            <div className="foods-page__container">
-                <Header />
+    configFoods(foodsCategoryURI) {
+        if (foodsCategoryURI === 'gununyemekleri') {
+            return (
+                <div className="foods-page__content">
+
+                    <p>Instagramdan Bakabilirsiniz</p>
+                    <div>
+                        <FaArrowDown style={{ fontSize: 35, color: 'black' }} />
+                    </div>
+
+                </div>
+            );
+
+        } else {
+            return (
                 <div 
                     className="foods-page__content"
                     onClick={() => this.props.closeSideBar()}
@@ -23,6 +36,15 @@ class FoodsPage extends React.Component {
                         foodsCategory={this.state.foodsCategory}
                     />
                 </div>
+            );
+        }
+    }
+
+    render() {
+        return (
+            <div className="foods-page__container">
+                <Header />
+                {this.configFoods(this.props.match.params.foodsCategory)}
                 <Footer />
             </div>
         );
