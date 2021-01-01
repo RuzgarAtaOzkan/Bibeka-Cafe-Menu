@@ -180,66 +180,133 @@
     ],
     "salatalar": [
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
+            "image": "../images/image_mevsim-salata.png",
+            "name": "Mevsim Salata",
             "urlName": "salatalar0",
+            "description": "",
             "price": {
-                "yarim": 20,
-                "tam": 25
+                "yarim": 17,
+                "tam": 21
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
+            "image": "../images/image_akdeniz-salata.jpg",
+            "name": "Akdeniz Salata",
             "urlName": "salatalar1",
+            "description": "",
             "price": {
-                "yarim": 20,
-                "tam": 25
+                "yarim": 19,
+                "tam": 23
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
+            "image": "../images/image_ton-balikli-salata.jpg",
+            "name": "Ton Balikli",
             "urlName": "salatalar2",
+            "description": "",
             "price": {
-                "yarim": 20,
-                "tam": 25
+                "yarim": 23,
+                "tam": 28
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
+            "image": "../images/image_tavuklu-salata.jpg",
+            "name": "Tavuklu",
             "urlName": "salatalar3",
+            "description": "",
             "price": {
-                "yarim": 20,
-                "tam": 25
+                "yarim": 21,
+                "tam": 26
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
+            "image": "../images/image_sezar-salata.jpeg",
+            "name": "Tavuklu Sezar Soslu",
             "urlName": "salatalar4",
+            "description": "",
             "price": {
-                "yarim": 20,
-                "tam": 25
+                "yarim": 22,
+                "tam": 27
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Kofte",
+            "image": "../images/image_hellim-peynirli-salata.jpeg",
+            "name": "Hellim Peynirli",
             "urlName": "salatalar5",
+            "description": "",
             "price": {
-                "yarim": 20,
-                "tam": 25
+                "yarim": 22,
+                "tam": 27
             }
         },
         {
-            "image": "../images/image_buneamk.jpg",
-            "name": "Salata",
-            "urlName": "salatalar6",
+            "image": "../images/image_biftek-parcali-salata.jpg",
+            "name": "Biftek Parcali",
+            "urlName": "salatalar7",
+            "description": "",
             "price": {
-                "yarim": 20,
-                "tam": 25
+                "yarim": 39,
+                "tam": 43
+            }
+        },
+        {
+            "image": "../images/image_citir-tavuk-salata.jpg",
+            "name": "Citir Tavuk Salata",
+            "urlName": "salatalar8",
+            "description": "",
+            "price": {
+                "yarim": 23,
+                "tam": 28
+            }
+        },
+        {
+            "image": "../images/image_tavuklu-hellim-peynirli-salata.jpg",
+            "name": "Tavuklu ve Hellim Peynirli",
+            "urlName": "salatalar9",
+            "description": "",
+            "price": {
+                "yarim": 26,
+                "tam": 30
+            }
+        },
+        {
+            "image": "../images/image_rokali-salata.jpeg",
+            "name": "Rokali Salata",
+            "urlName": "salatalar10",
+            "description": "(Ceviz ve Parmesan Esliginde)",
+            "price": {
+                "yarim": 22,
+                "tam": 26
+            }
+        },
+        {
+            "image": "../images/image_izgara-sebzeli-salata.jpg",
+            "name": "Izgara Sebzeli",
+            "urlName": "salatalar11",
+            "description": "",
+            "price": {
+                "yarim": 23,
+                "tam": 27
+            }
+        },
+        {
+            "image": "../images/image_atom-salata.jpeg",
+            "name": "Atom Salata",
+            "urlName": "salatalar12",
+            "description": "(Beyaz Peynir, Ceviz, Incir, Kayisi)",
+            "price": {
+                "yarim": 22,
+                "tam": 27
+            }
+        },
+        {
+            "image": "../images/image_kofteli-salata.jpg",
+            "name": "Kofteli Salata",
+            "urlName": "salatalar13",
+            "description": "",
+            "price": {
+                "yarim": 24,
+                "tam": 29
             }
         }
     ],
@@ -353,16 +420,6 @@
                 "yarim": 21,
                 "tam": 25
             }
-        },
-        {
-            "image": "../images/image_sebzeli-sade-makarna.jpg",
-            "name": "Sebzeli",
-            "urlName": "makarnalar11",
-            "description": "(Kabak, Havuc, Patlican)",
-            "price": {
-                "yarim": 23,
-                "tam": 27
-            }
         }
     ],
     "omletcesitleri": [
@@ -398,7 +455,7 @@
     "gozlemecesitleri": [
         {
             "image": "../images/image_kasarli-gozleme.jpg",
-            "name": "Beyaz Peynirli, Kasarli",
+            "name": "Beyaz Peynirli veya Kasarli",
             "urlName": "gozlemecesitleri0",
             "description": "",
             "price": 16

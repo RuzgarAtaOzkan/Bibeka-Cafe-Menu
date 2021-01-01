@@ -4,7 +4,6 @@ import Foods from '../components/Foods';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { connect } from 'react-redux';
-import { TiSocialInstagram } from 'react-icons/ti';
 import { FaArrowDown } from 'react-icons/fa'
 
 class FoodsPage extends React.Component {
@@ -38,6 +37,10 @@ class FoodsPage extends React.Component {
                 </div>
             );
         }
+    }
+
+    componentDidMount() {
+        this.props.closeSideBar();
     }
 
     render() {
