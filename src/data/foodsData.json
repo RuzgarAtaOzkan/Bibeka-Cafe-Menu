@@ -1,7 +1,7 @@
 {
     "anayemekler": [
         {
-            "image": "../images/image_kofte-izgara2.jpg",
+            "image": "../images/image_kofte-izgara-bibeka.jpeg",
             "name": "Kofte Izgara",
             "urlName": "anayemekler0",
             "description": "(Kozlenmis Domates, Biber, Yesillik, Patates esliginde)",
@@ -171,7 +171,7 @@
             "price": 20
         },
         {
-            "image": "../images/image_menemen.jpg",
+            "image": "../images/image_menemen-bibeka.jpeg",
             "name": "Menemen",
             "urlName": "gunebaslarken10",
             "description": "",
