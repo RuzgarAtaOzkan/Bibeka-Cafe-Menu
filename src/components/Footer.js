@@ -12,7 +12,7 @@ class Footer extends React.Component {
                     </a> 
                 </div>
                 <p>Bibeka Cafe Inc. Ⓡ</p>
-                <p id="footer__designer-signature">Designed by Mert Agca.</p>
+                <p id="footer__designer-signature">Designed by Mert Agca & Ruzgar Ata Ozkan.</p>
 
             </div>
         );

@@ -30,8 +30,8 @@ class SidebarItems extends React.Component {
         return (
             this.state.sidebarData.map((item, index) => {
                 return (
-                    <a
-                        href={`${item.path}`}
+                    <Link
+                        to={`${item.path}`}
                         key={index}
                     >
                         <li 
@@ -40,7 +40,7 @@ class SidebarItems extends React.Component {
                             {item.icon}
                             {item.name}
                         </li>
-                    </a>
+                    </Link>
                 );
             })
         );
