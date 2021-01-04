@@ -5,43 +5,66 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { connect } from 'react-redux';
 import { FaArrowDown } from 'react-icons/fa'
+import { BiLoader } from 'react-icons/bi';
 
 class FoodsPage extends React.Component {
 
     state = {
-        foodsCategory: this.props.match.params.foodsCategory
+        foodsCategory: this.props.match.params.foodsCategory,
+        loading: true
     }
 
     configFoods(foodsCategoryURI) {
-        if (foodsCategoryURI === 'gununyemekleri') {
+
+        if (this.state.loading) {
             return (
-                <div  className="foods-page__content">
-
-                    <p>Instagramdan Bakabilirsiniz</p>
-                    <div style={{ paddingTop: '15px' }}>
-                        <FaArrowDown style={{ fontSize: 35, color: 'black' }} />
-                    </div>
-
+                <div style={{ textAlign: 'center' }} className="foods-page__content">
+                    <BiLoader style={{ fontSize: '15rem' }} />
                 </div>
-            );
 
+            )
         } else {
-            return (
-                <div 
-                    className="foods-page__content"
-                    onClick={() => this.props.closeSideBar()}
-                >
-                    <Foods
-                        foodsCategory={this.state.foodsCategory}
-                    />
-                </div>
-            );
+            if (foodsCategoryURI === 'gununyemekleri') {
+                return (
+                    <div  className="foods-page__content">
+    
+                        <p>Instagramdan Bakabilirsiniz</p>
+                        <div style={{ paddingTop: '15px' }}>
+                            <FaArrowDown style={{ fontSize: 35, color: 'black' }} />
+                        </div>
+    
+                    </div>
+                );
+    
+            } else {
+                return (
+                    <div 
+                        className="foods-page__content"
+                        onClick={() => this.props.closeSideBar()}
+    
+                    >
+
+    
+                        <Foods
+                            foodsCategory={this.state.foodsCategory}
+                        />
+                    </div>
+                );
+            }
         }
+
+
     }
 
     componentDidMount() {
         this.props.closeSideBar();
 
+
+
+        setTimeout(() => {
+            window.scrollTo(0, 0);
+            this.setState({ loading: false });
+        }, 300);
     }
 
     render() {
