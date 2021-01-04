@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { connect } from 'react-redux';
 import { FaArrowDown } from 'react-icons/fa'
-import { BiLoader } from 'react-icons/bi';
+import { FiLoader } from 'react-icons/fi';
 
 class FoodsPage extends React.Component {
 
@@ -19,7 +19,7 @@ class FoodsPage extends React.Component {
         if (this.state.loading) {
             return (
                 <div style={{ textAlign: 'center' }} className="foods-page__content">
-                    <BiLoader style={{ fontSize: '15rem' }} />
+                    <FiLoader style={{ fontSize: '15rem' }} />
                 </div>
 
             )
