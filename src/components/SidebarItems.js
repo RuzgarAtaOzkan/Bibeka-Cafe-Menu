@@ -33,6 +33,9 @@ class SidebarItems extends React.Component {
                     <Link
                         to={`${item.path}`}
                         key={index}
+                        onClick={() => setTimeout(() => {
+                            window.location.reload();
+                        }, 10)} // url changing but content is not downloading so we refresh the page after the url is set and deployed to the link
                     >
                         <li 
                             className={item.cName} 
@@ -44,6 +47,10 @@ class SidebarItems extends React.Component {
                 );
             })
         );
+    }
+
+    componentDidMount() {
+        
     }
 
     render() {

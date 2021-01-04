@@ -9,7 +9,7 @@ import { FaArrowDown } from 'react-icons/fa'
 class FoodsPage extends React.Component {
 
     state = {
-        foodsCategory: this.props.match.params.foodsCategory 
+        foodsCategory: this.props.match.params.foodsCategory
     }
 
     configFoods(foodsCategoryURI) {
@@ -41,6 +41,7 @@ class FoodsPage extends React.Component {
 
     componentDidMount() {
         this.props.closeSideBar();
+
     }
 
     render() {
