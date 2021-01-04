@@ -19,11 +19,11 @@ class FoodsPage extends React.Component {
         if (this.state.loading) {
             return (
                 <div style={{ textAlign: 'center' }} className="foods-page__content">
-                    <FiLoader style={{ fontSize: '15rem' }} />
+                    <FiLoader style={{ fontSize: '8rem' }} />
                 </div>
-
-            )
+            );
         } else {
+
             if (foodsCategoryURI === 'gununyemekleri') {
                 return (
                     <div  className="foods-page__content">
@@ -44,22 +44,19 @@ class FoodsPage extends React.Component {
     
                     >
 
-    
                         <Foods
                             foodsCategory={this.state.foodsCategory}
                         />
+
                     </div>
                 );
             }
         }
 
-
     }
 
     componentDidMount() {
         this.props.closeSideBar();
-
-
 
         setTimeout(() => {
             window.scrollTo(0, 0);

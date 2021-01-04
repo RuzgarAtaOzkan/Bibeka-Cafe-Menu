@@ -15,7 +15,7 @@
             "price": 29
         },
         {
-            "image": "../images/image_biftek-izgara.jpg",
+            "image": "../images/image_biftek-izgara2.jpeg",
             "name": "Biftek Izgara",
             "urlName": "anayemekler2",
             "description": "(Kozlenmis Domts, Biber, Yesillik, Patates Esliginde)",
@@ -180,7 +180,7 @@
     ],
     "salatalar": [
         {
-            "image": "../images/image_mevsim-salata.png",
+            "image": "../images/image_mevsim-salata3.jpeg",
             "name": "Mevsim Salata",
             "urlName": "salatalar0",
             "description": "",
@@ -505,7 +505,7 @@
             "price": 10
         },
         {
-            "image": "../images/image_sucuklu-tost.jpg",
+            "image": "../images/image_sucuklu-tost2.jpeg",
             "name": "Sucuklu",
             "urlName": "tostcesitleri3",
             "description": "",
@@ -519,7 +519,7 @@
             "price": 12
         },
         {
-            "image": "../images/image_zeytin-ezmeli-tost.jpg",
+            "image": "../images/image_zeytin-ezmeli-kasarli-tost.jpeg",
             "name": "Zeytin Ezmeli",
             "urlName": "tostcesitleri5",
             "description": "(Beyaz Peynirli veya Kasarli)",
@@ -536,7 +536,7 @@
     "bagetsandvicler": {
         "soguklar": [
             {
-                "image": "../images/image_beyaz-peynirli-baget.jpg",
+                "image": "../images/image_beyaz-peynirli-baget4.jpeg",
                 "name": "Beyaz Peynirli",
                 "urlName": "bagetsandvicler0",
                 "description": "(Domates, salatalik)",
@@ -742,7 +742,7 @@
             "price": 6
         },
         {
-            "image": "../images/image_diet-coke.png",
+            "image": "../images/image_cola-light3.jpeg",
             "name": "Diet Cola",
             "urlName": "sogukicicekler4",
             "description": "",
