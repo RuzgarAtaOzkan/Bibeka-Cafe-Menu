@@ -1,4 +1,5 @@
 import React from 'react';
+import foodsData from '../data/foodsData.json';
 import '../styles/Food.css';
 import { Link } from 'react-router-dom';
 
@@ -6,6 +7,26 @@ class Food extends React.Component {
 
     state = {
         foodInfo: this.props.food
+    }
+
+    displayVideo(foodCategory) { // display video if the image attribute includes .mp4 or video, it is not a good practice will convert the image property name to video.
+
+        const currentFoodObj = foodsData[foodCategory].find((foodObj, index) => foodObj.urlName === this.props.food.urlName);
+
+        if (currentFoodObj.video || currentFoodObj.image.includes('video' || '.mp4' || '.mov')) { // it will try to grab the video property first if the current food object has it
+            return (
+                <video 
+                    style={{ width: '170px' }} 
+                    autoPlay 
+                    loop 
+                    muted
+                > 
+                    <source src={this.props.food.video || this.state.foodInfo.image} type="video/mp4" /> 
+                </video>
+            );
+        }
+
+        return <img alt="food" src={this.state.foodInfo.image} />;
     }
 
     componentDidMount() {
@@ -16,7 +37,9 @@ class Food extends React.Component {
         return (
             <div className="food__container">
                 <Link to={`/${this.props.foodsCategoryURL}/${this.props.food.urlName}`}>
-                    <img alt="food" src={this.state.foodInfo.image} />
+
+                    {this.displayVideo(this.props.foodsCategoryURL)}
+
                     <p style={{ width: '170px' }}>{this.state.foodInfo.name}</p>
 
                     {this.props.food.urlName === 'makarnalar8' || this.props.food.urlName === 'makarnalar9' || this.props.food.urlName === 'makarnalar10' || this.props.food.urlName === 'makarnalar11' ?  <p style={{  width: '170px',textAlign: 'center' }}>{this.state.foodInfo.description}</p> : null}

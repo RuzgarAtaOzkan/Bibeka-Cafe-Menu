@@ -9,7 +9,7 @@ class Categories extends React.Component {
             { image: '../images/image_kofte.jpg', name: 'Ana Yemekler', urlName: 'anayemekler' },
             { image: '../images/image_gunun-yemekleri.jpeg', name: 'Gunun Yemekleri', urlName: 'gununyemekleri' },
             { image: '../images/image_sahanda.jpg', name: 'Gune \n Baslarken', urlName: 'gunebaslarken' },
-            { image: '../images/image_chicken_wrap.jpg', name: 'Salatalar', urlName: 'salatalar' },
+            { image: '../images/image_sezar-salata.jpeg', name: 'Salatalar', urlName: 'salatalar' },
             { image: '../images/image_makarna_sebze.jpg', name: 'Makarnalar', urlName: 'makarnalar' },
             { image: '../images/image_kasarli-omlet.jpg', name: 'Omlet Cesitleri', urlName: 'omletcesitleri' },
             { image: '../images/image_gozleme.jpg', name: 'Gözleme Çeşitleri', urlName: 'gozlemecesitleri' },

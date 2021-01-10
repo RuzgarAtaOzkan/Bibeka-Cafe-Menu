@@ -85,7 +85,9 @@ class Foods extends React.Component {
     }
 
     displayFoods(foodsCategory) {
+
         if (foodsCategory) {
+
             return foodsCategory.map((item, index) => {
                 return (
                     <Food

@@ -136,7 +136,7 @@
             "price": 6
         },
         {
-            "image": "../images/image_breakfast2.jpg",
+            "image": "../images/image_mini-kahvalti-tabagi4.jpeg",
             "name": "Mini Kahvalti Tabagi",
             "urlName": "gunebaslarken5",
             "description": "(Domates, salatalik, zeytin, beyaz peynir, kasar peyniri, tereyag, bal)",
@@ -180,7 +180,7 @@
     ],
     "salatalar": [
         {
-            "image": "../images/image_mevsim-salata3.jpeg",
+            "image": "../images/image_akdeniz-salata2.jpeg",
             "name": "Mevsim Salata",
             "urlName": "salatalar0",
             "description": "",
@@ -454,28 +454,28 @@
     ],
     "gozlemecesitleri": [
         {
-            "image": "../images/image_kasarli-gozleme.jpg",
+            "image": "../images/image_gozleme-video.mp4",
             "name": "Beyaz Peynirli veya Kasarli",
             "urlName": "gozlemecesitleri0",
             "description": "",
             "price": 16
         },
         {
-            "image": "../images/image_patatesli-gozleme.jpg",
+            "image": "../images/image_gozleme-video.mp4",
             "name": "Patatesli",
             "urlName": "gozlemecesitleri1",
             "description": "",
             "price": 18
         },
         {
-            "image": "../images/image_gozleme.jpg",
+            "image": "../images/image_gozleme-video.mp4",
             "name": "Karisik",
             "urlName": "gozlemecesitleri2",
             "description": "(Sucuklu ve Kasarli)",
             "price": 22
         },
         {
-            "image": "../images/image_sebzeli-gozleme.jpg",
+            "image": "../images/image_gozleme-video.mp4",
             "name": "Sebzeli",
             "urlName": "gozlemecesitleri3",
             "description": "(Kabak, Havuc, Patlican)",
@@ -484,21 +484,21 @@
     ],
     "tostcesitleri": [
         {
-            "image": "../images/image_beyaz-peynirli-tost.jpg",
+            "image": "../images/image_beyaz-peynirli-tost5.jpeg",
             "name": "Beyaz Peynirli",
             "urlName": "tostcesitleri0",
             "description": "",
             "price": 8
         },
         {
-            "image": "../images/image_kasarli-tost.jpg",
+            "image": "../images/image_kasarli-ve-cift-kasarli.jpeg",
             "name": "Kasarli",
             "urlName": "tostcesitleri1",
             "description": "",
             "price": 8
         },
         {
-            "image": "../images/image_kasarli-tost.jpg",
+            "image": "../images/image_kasarli-ve-cift-kasarli.jpeg",
             "name": "Cift Kasarli",
             "urlName": "tostcesitleri2",
             "description": "",
@@ -526,7 +526,7 @@
             "price": 11
         },
         {
-            "image": "../images/image_bibeka-tost.jpg",
+            "image": "../images/image_bibeka-tost5.jpeg",
             "name": "Bibeka Tost",
             "urlName": "tostcesitleri6",
             "description": "(Kasar, Domates, Hakiki Zeytinyagi, Taze Kekik)",
@@ -543,14 +543,14 @@
                 "price": 14
             },
             {
-                "image": "../images/image_kasarli-baget.jpg",
+                "image": "../images/image_kasarli-baget6.jpeg",
                 "name": "Kasar Peynirli",
                 "urlName": "bagetsandvicler1",
                 "description": "(Domates, Salatalik)",
                 "price": 14
             },
             {
-                "image": "../images/image_karisik-baget.jpg",
+                "image": "../images/image_karisik-baget5.jpeg",
                 "name": "Karisik Sandvic",
                 "urlName": "bagetsandvicler2",
                 "description": "(Beyaz Peynir, Kasar, Domates, Salatalik",
@@ -566,21 +566,21 @@
         ],
         "sicaklar": [
             {
-                "image": "../images/image_kofteli-baget.jpg",
+                "image": "../images/image_kofteli-baget3.jpeg",
                 "name": "Kofteli",
                 "urlName": "bagetsandvicler4",
                 "description": "(Domates, Tursu, Patates)",
                 "price": 29
             },
             {
-                "image": "../images/image_tavuklu-baget.jpg",
+                "image": "../images/image_tavuklu-baget3.jpeg",
                 "name": "Tavuklu",
                 "urlName": "bagetsandvicler5",
                 "description": "(Domates, Tursu, Patates)",
                 "price": 27
             },
             {
-                "image": "../images/image_biftek-dilimli-baget.jpg",
+                "image": "../images/image_biftekli-baget7.jpeg",
                 "name": "Biftek Dilimli",
                 "urlName": "bagetsandvicler6",
                 "description": "(Domates, Tursu, Patates)",
@@ -621,28 +621,28 @@
             "price": 8
         },
         {
-            "image": "../images/image_nescafe2.png",
+            "image": "../images/image_nescafe3.jpeg",
             "name": "Nescafe",
             "urlName": "sicakicicekler1",
             "description": "",
             "price": 9
         },
         {
-            "image": "../images/image_espresso.jpg",
+            "image": "../images/image_espresso3.jpeg",
             "name": "Espresso",
             "urlName": "sicakicicekler2",
             "description": "",
             "price": 9
         },
         {
-            "image": "../images/image_cappuccino.jpg",
+            "image": "../images/image_cappuccino5.jpeg",
             "name": "Cappuccino",
             "urlName": "sicakicicekler3",
             "description": "",
             "price": 14
         },
         {
-            "image": "../images/image_macchiato.jpg",
+            "image": "../images/image_cappuccino.jpg",
             "name": "Maccihato",
             "urlName": "sicakicicekler4",
             "description": "",
@@ -656,14 +656,14 @@
             "price": 14
         },
         {
-            "image": "../images/image_cafe-latte-karamel.jpg",
+            "image": "../images/image_cappuccino5.jpeg",
             "name": "Cafe Latte Karamel",
             "urlName": "sicakicicekler6",
             "description": "",
             "price": 17
         },
         {
-            "image": "../images/image_filtre-kahve.jpg",
+            "image": "../images/image_filtre-kahve3.jpeg",
             "name": "Filtre Kahve",
             "urlName": "sicakicicekler7",
             "description": "",
