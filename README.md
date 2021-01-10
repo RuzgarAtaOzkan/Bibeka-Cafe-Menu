@@ -2,7 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). \
 
-Deployed Domain Address: https://bibeka-cafe-menu.vercel.app
+Deployed Domain Address: https://bibeka-cafe-menu.vercel.app \
+Using vercel.com for deployment, free and easy CLI tools.
 
 ## Available Scripts
 
@@ -11,7 +12,7 @@ In the project directory, you can run:
 ### `npm install`
 
 To get the dependencies I use in the project when you download the repo.\
-Using vercel.com for deployment, free and easy CLI tools.
+
 
 ### `npm start`
 
