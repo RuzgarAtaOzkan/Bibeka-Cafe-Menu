@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+To get the dependencies I use in the project when you download the repo.
+Using vercel.com for deployment, free and easy cli tools.
+
 ### `npm start`
 
 Runs the app in the development mode.\
