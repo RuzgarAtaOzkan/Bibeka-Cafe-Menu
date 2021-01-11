@@ -53,8 +53,9 @@ class FoodPage extends React.Component {
         }
     }
 
-    displayVideo(food) {
-        if (food.video || food.image.includes('video' || '.mp4', '.mov')) { // it will try to grab the video property first if the current food object has it
+    displayMedia(food) {
+
+        if (food.video || food.image.includes('video' || '.mp4' || '.mov')) { // it will try to grab the video property first if the current food object has it
             return (
                 <video 
                     style={{ width: '100%' }} 
@@ -84,7 +85,7 @@ class FoodPage extends React.Component {
                         this.props.closeSideBar();
                     }}
                 >
-                    {this.displayVideo(this.state.food)}
+                    {this.displayMedia(this.state.food)}
 
                     <div className="food-page__name">
                         <p>{this.state.food.name} {this.findWarmOrCold(foodsData[this.props.match.params.foodsCategory])}</p>

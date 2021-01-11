@@ -9,21 +9,25 @@ class Food extends React.Component {
         foodInfo: this.props.food
     }
 
-    displayVideo(foodCategory) { // display video if the image attribute includes .mp4 or video, it is not a good practice will convert the image property name to video.
+    displayMedia(foodCategory) { // display video if the image attribute includes .mp4 or video, it is not a good practice will convert the image property name to video.
 
-        const currentFoodObj = foodsData[foodCategory].find((foodObj, index) => foodObj.urlName === this.props.food.urlName);
+        if (Array.isArray(foodsData[foodCategory])) { 
+            const currentFoodObj = foodsData[foodCategory].find((foodObj, index) => foodObj.urlName === this.props.food.urlName);
 
-        if (currentFoodObj.video || currentFoodObj.image.includes('video' || '.mp4' || '.mov')) { // it will try to grab the video property first if the current food object has it
-            return (
-                <video 
-                    style={{ width: '170px' }} 
-                    autoPlay 
-                    loop 
-                    muted
-                > 
-                    <source src={this.props.food.video || this.state.foodInfo.image} type="video/mp4" /> 
-                </video>
-            );
+            if (currentFoodObj.video || currentFoodObj.image.includes('video' || '.mp4' || '.mov')) { // it will try to grab the video property first if the current food object has it
+                return (
+                    <video 
+                        style={{ width: '170px' }} 
+                        autoPlay 
+                        loop 
+                        muted
+                    > 
+                        <source src={this.props.food.video || this.state.foodInfo.image} type="video/mp4" /> 
+                    </video>
+                );
+            }
+    
+            return <img alt="food" src={this.state.foodInfo.image} />;
         }
 
         return <img alt="food" src={this.state.foodInfo.image} />;
@@ -38,7 +42,7 @@ class Food extends React.Component {
             <div className="food__container">
                 <Link to={`/${this.props.foodsCategoryURL}/${this.props.food.urlName}`}>
 
-                    {this.displayVideo(this.props.foodsCategoryURL)}
+                    {this.displayMedia(this.props.foodsCategoryURL)}
 
                     <p style={{ width: '170px' }}>{this.state.foodInfo.name}</p>
 
