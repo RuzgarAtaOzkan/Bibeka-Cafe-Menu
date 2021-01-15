@@ -58,10 +58,13 @@ class FoodsPage extends React.Component {
     componentDidMount() {
         this.props.closeSideBar();
 
-        setTimeout(() => {
-            window.scrollTo(0, 0);
-            this.setState({ loading: false });
-        }, 300);
+        window.scrollTo(0, 0);
+        this.setState({ loading: false });
+
+        //setTimeout(() => {
+            //window.scrollTo(0, 0);
+            //this.setState({ loading: false });
+        //}, 300);
     }
 
     render() {
