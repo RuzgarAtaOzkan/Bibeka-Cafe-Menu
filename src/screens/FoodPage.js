@@ -38,12 +38,14 @@ class FoodPage extends React.Component {
             const temperatureLevels = Object.getOwnPropertyNames(foodsCategory);
             const temperatures = [];
             temperatureLevels.forEach((temperature, index) => {
-                console.log(foodsCategory[temperature].find(item => item.urlName === this.props.match.params.food))
+
                 if (foodsCategory[temperature].find(item => item.urlName === this.props.match.params.food)) {
 
-                    this.setState({ ...this.state, temperatureCategory: `(${temperature})` });
+                    this.setState({ ...this.state, temperatureCategory: temperature });
                     temperatures.push(`(${temperature})`);
+
                 }
+
             });
             return temperatures;
         } else {
@@ -71,10 +73,14 @@ class FoodPage extends React.Component {
         );
     }
 
-    configTemperatureTitle(temperature) {
+    makeFirstUpper(temperature) {
+
         if (temperature) {
-            return temperature.toUpperCase().charAt(0) + temperature.substr(1, temperature.length - 1);
+            return `(${temperature.charAt(0).toUpperCase()}${temperature.substr(1, temperature.length - 1).toLowerCase()})`;
+        } else {
+            return null;
         }
+
     }
 
     render() {
@@ -93,7 +99,7 @@ class FoodPage extends React.Component {
                     {this.displayMedia(this.state.food)}
 
                     <div className="food-page__name"> 
-                        <p>{this.state.food.name} {this.configTemperatureTitle(this.state.temperatureCategory)}</p>
+                        <p>{this.state.food.name} {this.makeFirstUpper(this.state.temperatureCategory)}</p>
                     </div>
 
                     <div className="food-page__table">

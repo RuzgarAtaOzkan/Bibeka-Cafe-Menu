@@ -40,8 +40,7 @@ class FoodsPage extends React.Component {
                 return (
                     <div 
                         className="foods-page__content"
-                        onClick={() => this.props.closeSideBar()}
-    
+                        onClick={this.props.closeSideBar}
                     >
 
                         <Foods
@@ -57,14 +56,8 @@ class FoodsPage extends React.Component {
 
     componentDidMount() {
         this.props.closeSideBar();
-
         window.scrollTo(0, 0);
         this.setState({ loading: false });
-
-        //setTimeout(() => {
-            //window.scrollTo(0, 0);
-            //this.setState({ loading: false });
-        //}, 300);
     }
 
     render() {
