@@ -11,7 +11,6 @@ class MainPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
-
     }
 
     render() {
@@ -22,7 +21,6 @@ class MainPage extends React.Component {
                     <FavouriteTastesSlideBar />
                     <Categories />
                     <Footer />
-                    <button onClick={() => console.log(this.props.clientHeight)}>click</button>
                 </div>
             </div>
         );

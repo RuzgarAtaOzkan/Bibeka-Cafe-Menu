@@ -17,7 +17,8 @@
 }
 
 
-.footer__container p {
+.footer__container p a {
+    color: black;
     padding: 0.3rem;
     font-size: 1.5rem;
 }
