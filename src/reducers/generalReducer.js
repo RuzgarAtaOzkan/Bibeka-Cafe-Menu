@@ -1,6 +1,7 @@
 
 const initialState = {
-    showSideBar: false
+    showSideBar: false,
+    sidebarContainer: null
 }
 
 function generalReducer(state = initialState, action) {
@@ -9,6 +10,8 @@ function generalReducer(state = initialState, action) {
             return { ...state, showSideBar: false };
         case 'SWITCH_SIDEBAR':
             return { ...state, showSideBar: !state.showSideBar };
+        case 'SET_SIDEBAR_CONTAINER':
+            return { ...state, sidebarContainer: action.payload };
         default:
             return state;
     }

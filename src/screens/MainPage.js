@@ -8,20 +8,21 @@ import '../styles/MainPage.css';
 
 class MainPage extends React.Component {
 
-    componentDidMount() {
-        
+    constructor(props) {
+        super(props);
+        this.state = {};
+
     }
 
     render() {
         return (
-            <div className="main-page__container">
+            <div  className="main-page__container">
                 <Header />
-                <div onClick={() => {
-                    this.props.closeSideBar();
-                }}>
+                <div onClick={() => this.props.closeSideBar()}>
                     <FavouriteTastesSlideBar />
                     <Categories />
                     <Footer />
+                    <button onClick={() => console.log(this.props.clientHeight)}>click</button>
                 </div>
             </div>
         );
@@ -30,7 +31,8 @@ class MainPage extends React.Component {
 
 function mapStateToProps(state) {
     return {
-        showSideBar: state.general.showSideBar
+        showSideBar: state.general.showSideBar,
+        clientHeight: state.general.clientHeight
     }
 }
 
@@ -44,5 +46,6 @@ function mapDispatchToProps(dispatch) {
         }
     }
 }
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(MainPage);

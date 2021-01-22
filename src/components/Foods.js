@@ -50,7 +50,7 @@ class Foods extends React.Component {
             case 'salatalar':
                 return <h1>Salatalar</h1>;
             default:
-                return 'Default Title';
+                return <h1>Default Title</h1>;
         }
     }
 

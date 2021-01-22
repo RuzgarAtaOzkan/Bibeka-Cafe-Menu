@@ -9,20 +9,23 @@
 }
 
 .sidebar__items {
+
     display: flex;
+    flex-direction: column;
+    list-style: none;
     justify-content: center;
     align-items: center;
-    border: 1px solid ;
 
 }
 
 .sidebar__item {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
     font-size: 1.2rem;
     color: white;
-
-    
-    padding: 0.5rem;
-    text-align: center;
     cursor: pointer;
     border-top: 1px solid #854217;
 }
@@ -33,9 +36,8 @@
 
 .sidebar__toggle {
     font-size: 1.6rem;
+    padding: 0.5rem;
     color: white;
-    padding: 1rem;
-    padding-left: 20%;
     cursor: pointer;
 }
 

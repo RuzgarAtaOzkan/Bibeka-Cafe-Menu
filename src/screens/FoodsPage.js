@@ -9,9 +9,12 @@ import { FiLoader } from 'react-icons/fi';
 
 class FoodsPage extends React.Component {
 
-    state = {
-        foodsCategory: this.props.match.params.foodsCategory,
-        loading: true
+    constructor(props) {
+        super(props);
+        this.state = {
+            foodsCategory: this.props.match.params.foodsCategory,
+            loading: true
+        }
     }
 
     configFoods(foodsCategoryURI) {
@@ -63,7 +66,7 @@ class FoodsPage extends React.Component {
     render() {
         return (
             <div className="foods-page__container">
-                <Header />
+                <Header setSidebarContainer={this.setSidebarContainer} />
                 {this.configFoods(this.props.match.params.foodsCategory)}
                 <Footer />
             </div>

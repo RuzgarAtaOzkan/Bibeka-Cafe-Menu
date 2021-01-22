@@ -9,7 +9,7 @@ class FoodPage extends React.Component {
 
     state = {
         food: this.configFood(foodsData[this.props.match.params.foodsCategory]),
-        temperatureCategory: null
+        temperatureCategory: ''
     }
 
     componentDidMount() {
@@ -36,26 +36,20 @@ class FoodPage extends React.Component {
     findWarmOrCold(foodsCategory) { // check if the selected food in the sicaklar or soguklar section in the foods data.
         if (!Array.isArray(foodsCategory)) {
             const temperatureLevels = Object.getOwnPropertyNames(foodsCategory);
-            const temperatures = [];
             temperatureLevels.forEach((temperature, index) => {
+                const food = foodsCategory[temperature].find(item => item.urlName === this.props.match.params.food);
 
-                if (foodsCategory[temperature].find(item => item.urlName === this.props.match.params.food)) {
-
+                if (food) {
                     this.setState({ ...this.state, temperatureCategory: temperature });
-                    temperatures.push(`(${temperature})`);
-
                 }
 
             });
-            return temperatures;
-        } else {
-            return null;
-        }
+        } 
     }
 
     displayMedia(food) {
 
-        if (food.video || food.image.includes('video' || '.mp4' || '.mov')) { // it will try to grab the video property first if the current food object has it
+        if (food.video || food.image.includes('.mp4' || '.mov')) { // it will try to grab the video property first if the current food object has it
             return (
                 <video 
                     style={{ width: '100%' }} 
@@ -76,7 +70,7 @@ class FoodPage extends React.Component {
     makeFirstUpper(temperature) {
 
         if (temperature) {
-            return `(${temperature.charAt(0).toUpperCase()}${temperature.substr(1, temperature.length - 1).toLowerCase()})`;
+            return `(${temperature.charAt(0).toUpperCase()}${temperature.substr(1, temperature.length - 1).toLowerCase().replace('i', 'ı')})`;
         } else {
             return null;
         }
@@ -109,7 +103,7 @@ class FoodPage extends React.Component {
                                 <p>{this.state.food.price.yarim ? "Yarim - " : null}</p>
                             </div>
                             <div>
-                                <p>{this.state.food.price.tam ? "Tam -" : null}</p>
+                                <p>{this.state.food.price.tam ? "Tam - " : null}</p>
                             </div>
                         </div>
 

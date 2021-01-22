@@ -7,6 +7,7 @@ import { TiSocialInstagram } from 'react-icons/ti';
 import { GrClose } from 'react-icons/gr';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+import setSidebarResponsiveValues from '../dispatchFunctions/setSidebarResponsiveValues';
 import logo from '../images/image_logo2.png';
 
 class Header extends React.Component {
@@ -16,18 +17,26 @@ class Header extends React.Component {
         this.state = {
             showSideBar: false
         }
+        
         this.switchSidebar = this.switchSidebar.bind(this);
+        this.sidebarContainer = React.createRef();
     }
 
     switchSidebar() {
-        this.props.switchSideBar();
+        this.props.switchSideBar(); 
+    }
 
+    componentDidMount() {
+        window.addEventListener('load', () => {
+            this.props.setSidebarResponsiveValues(this.sidebarContainer.current);
+        });
+        this.props.setSidebarResponsiveValues(this.sidebarContainer.current);
     }
 
     render() {
         return (
             <>
-                <div className="header__container">
+                <div ref={this.page} className="header__container">
 
                     <ul className="header__container__list">
 
@@ -52,7 +61,7 @@ class Header extends React.Component {
                 </div>
 
                 <div className={this.props.showSideBar ? "sidebar__container active" : "sidebar__container"}>
-                    <ul className="sidebar_items">
+                    <ul ref={this.sidebarContainer} className="sidebar__items">
                         <li
                             key={Math.random().toString()}
                             onClick={this.switchSidebar}
@@ -70,7 +79,9 @@ class Header extends React.Component {
 
 function mapStateToProps(state) {
     return {
-        showSideBar: state.general.showSideBar
+        showSideBar: state.general.showSideBar,
+        sidebarResponsiveHeight: state.general.sidebarResponsiveHeight,
+        sidebarResponsiveFontSize: state.general.sidebarResponsiveFontSize
     }
 }
 
@@ -78,7 +89,11 @@ function mapDispatchToProps(dispatch) {
     return {
         switchSideBar: () => {
             dispatch({ type: 'SWITCH_SIDEBAR' });
-        }
+        },
+        closeSideBar: () => {
+            dispatch({ type: 'CLOSE_SIDEBAR' });
+        },
+        setSidebarResponsiveValues: setSidebarResponsiveValues(dispatch)
     }
 }
 

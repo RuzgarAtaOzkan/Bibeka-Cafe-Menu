@@ -7,13 +7,12 @@ import initStore from './store';
 import { Provider } from 'react-redux';
 import './styles/App.css';
 
-
 const store = initStore();
 
 class App extends React.Component {
     
     componentDidMount() {
-        
+
     }
 
     render() {
