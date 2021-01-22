@@ -18,7 +18,13 @@
 
 }
 
+.sidebar__items > a {
+    width: 100%;
+
+}
+
 .sidebar__item {
+    width: 100%;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -35,7 +41,9 @@
 }
 
 .sidebar__toggle {
+    text-align: center;
     font-size: 1.6rem;
+    width: 100%;
     padding: 0.5rem;
     color: white;
     cursor: pointer;
