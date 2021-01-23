@@ -17,6 +17,8 @@ class Header extends React.Component {
         this.state = {
             showSideBar: false
         }
+
+        this.resizeReseterId = 0;
         
         this.switchSidebar = this.switchSidebar.bind(this);
         this.sidebarContainer = React.createRef();
@@ -26,11 +28,31 @@ class Header extends React.Component {
         this.props.switchSideBar(); 
     }
 
+    listenResize() { // setting sidebar values responsive after resizing window, efficient because setTimeout avoids the overwrite
+        window.addEventListener('resize', () => {
+            if (this.resizeReseterId) {
+                clearTimeout(this.resizeReseterId);
+            }
+
+            this.resizeReseterId = setTimeout(() => this.props.setSidebarResponsiveValues(this.sidebarContainer.current), 100);
+        });
+
+    }
+
     componentDidMount() {
-        window.addEventListener('load', () => {
+        this.listenResize();
+        window.addEventListener('load', () => this.props.setSidebarResponsiveValues(this.sidebarContainer.current));
+        this.props.setSidebarResponsiveValues(this.sidebarContainer.current);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('click', () => {
             this.props.setSidebarResponsiveValues(this.sidebarContainer.current);
         });
-        this.props.setSidebarResponsiveValues(this.sidebarContainer.current);
+
+        window.removeEventListener('resize', () => {
+            this.props.setSidebarResponsiveValues(this.sidebarContainer.current)
+        });
     }
 
     render() {
