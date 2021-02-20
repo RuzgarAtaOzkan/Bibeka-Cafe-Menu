@@ -6,7 +6,7 @@ class Categories extends React.Component {
 
     state = {
         categoryInfos: [
-            { image: '../images/image_kofte.jpg', name: 'Ana Yemekler', urlName: 'anayemekler' },
+            { image: './images/image_kofte.jpg', name: 'Ana Yemekler', urlName: 'anayemekler' },
             { image: '../images/image_gunun-yemekleri.jpeg', name: 'Gunun Yemekleri', urlName: 'gununyemekleri' },
             { image: '../images/image_sahanda.jpg', name: 'Gune \n Baslarken', urlName: 'gunebaslarken' },
             { image: '../images/image_sezar-salata.jpeg', name: 'Salatalar', urlName: 'salatalar' },
@@ -33,6 +33,7 @@ class Categories extends React.Component {
     }
 
     componentDidMount() {
+        
     }
 
     render() {

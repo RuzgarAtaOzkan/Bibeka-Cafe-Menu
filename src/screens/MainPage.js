@@ -17,7 +17,9 @@ class MainPage extends React.Component {
         return (
             <div  className="main-page__container">
                 <Header />
-                <div onClick={() => this.props.closeSideBar()}>
+                <div 
+                    onClick={this.props.closeSideBar}
+                >
                     <FavouriteTastesSlideBar />
                     <Categories />
                     <Footer />
