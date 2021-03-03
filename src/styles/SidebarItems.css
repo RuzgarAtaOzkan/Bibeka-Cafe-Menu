@@ -47,10 +47,12 @@
     padding: 0.5rem;
     color: white;
     cursor: pointer;
+    align-self: center;
 }
 
 .sidebar__toggle:hover {
     background-color: #854217;
+
 }
 
 

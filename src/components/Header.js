@@ -83,7 +83,10 @@ class Header extends React.Component {
                 </div>
 
                 <div className={this.props.showSideBar ? "sidebar__container active" : "sidebar__container"}>
-                    <ul ref={this.sidebarContainer} className="sidebar__items">
+                    <ul 
+                        ref={this.sidebarContainer} 
+                        className="sidebar__items"
+                    >
                         <li
                             key={Math.random().toString()}
                             onClick={this.switchSidebar}
@@ -107,7 +110,7 @@ function mapStateToProps(state) {
     }
 }
 
-function mapDispatchToProps(dispatch) {
+function mapDispatchToProps(dispatch, ownProps) {
     return {
         switchSideBar: () => {
             dispatch({ type: 'SWITCH_SIDEBAR' });
